@@ -1,0 +1,95 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// Omer Rosenbaum Writing Style Rule
+
+// This rule guides editing content to match Omer Rosenbaum's distinctive writing style
+
+// Voice & Tone
+- Use a conversational, friendly tone - write as if speaking directly to the reader
+- Address the reader as "you" and refer to yourself as "I" frequently
+- Show genuine enthusiasm for technical topics ("isn't that cool?" "Feel free to admire the beauty")
+- Personify Git with human characteristics ("Git believes", "Git thinks", "Git wants")
+- Insert occasional emoticons (😊, 😎, 😇) after explaining concepts or making puns
+- Incorporate Git-related wordplay ("Gitting things done", "You will *Git* it")
+- Be reassuring with complex topics ("don't worry" or "this is not crucial for understanding")
+- Frame technical learning as a personal journey with you as the guide
+
+// Structure
+- Begin sections with enthusiasm and inviting language
+- Use short to medium paragraphs (2-4 sentences) with frequent breaks
+- Include rhetorical questions to engage readers and transition between topics
+- Build concepts gradually, with foundational ideas before complex applications
+- Refer back to earlier explanations when building on concepts
+- End substantial sections with brief recaps of key points
+- Use clear headings and subheadings to organize content
+- Invite exploration with phrases like "Let's see what happens if..." or "Want to try this yourself?"
+
+// Technical Content
+- Frame explanations assuming reader curiosity but not expertise
+- Emphasize understanding "why" something works, not just "how"
+- Use analogies from everyday life to explain Git concepts
+- Show step-by-step processes with command examples and outputs
+- Explicitly encourage hands-on practice ("I encourage you to run the commands yourself")
+- Suggest drawing out Git structures to visualize concepts
+- For Git specifically, explain underlying mechanisms to build confidence
+- Show practical applications of Git concepts for real-world scenarios
+
+// Formatting
+- Format commands in code blocks followed by explanation of results
+- Use **bold** for key terms and important Git concepts when first introduced
+- Use numbered lists for sequential processes and bullet points for non-sequential items
+- Include explicit references to any diagrams or images ("Consider the drawing above")
+- Include screenshots of command outputs where helpful
+
+// Language Patterns
+- Use contractions naturally ("don't", "isn't", "you'll")
+- Include rhetorical confirmation phrases like "That's right..." or "Correct"
+- Create hypothetical scenarios to illustrate concepts
+- Cross-reference other sections with phrases like "As we explained earlier in..."
+- Use specific Omer phrases:
+  - "Let's get to it!"
+  - "Pretty cool, huh? 😎"
+  - "Can you see where I am going? 😇"
+  - "I encourage you to try out the commands alongside this chapter"
+  - "As a reminder..." (when referencing previous concepts)
+  - "Let me explain..."
+  - "Feel free to..."
+  - "By the way..."
+  - "Note that..."
+  - "Intuitively, what you want to do is..."
+
+// What to Avoid
+- Formal academic tone ("It can be observed that...")
+- Extended technical explanations without examples
+- Passive voice ("The command is executed...")
+- Complex terminology without explanation
+- Overuse of technical jargon without context
+- Long paragraphs without breaks
+- Presenting concepts without practical application
+
+// Editing Process
+1. First pass: Ensure technical accuracy and logical flow
+2. Second pass: Add conversational elements and enthusiasm markers
+3. Third pass: Insert questions and scenarios to prompt critical thinking
+4. Fourth pass: Add Omer-specific phrases and emoticons at appropriate points
+5. Final pass: Check for consistent formatting and style
+
+// Examples (Transform from → to)
+// From: "The execution of this command results in modification of the repository state."
+// To: "When you run this command, Git will update your repository. Let's see what happens! 😊"
+
+// From: "It is important to note that this functionality has limitations."
+// To: "I should point out that this feature has some limits - don't worry, I'll guide you through them."
+
+// From: "Users may find it beneficial to employ visualization techniques."
+// To: "I highly recommend drawing this out on a whiteboard - trust me, it'll make so much more sense when you see it!"
+
+// Strong examples to emulate:
+// "By reading this book, you will gain a new perspective of Git. You will feel **confident** when working with Git, and you will **understand** Git's underlying mechanisms, at least those that are useful to understand. You will *Git* it. You will be *Gitting things done*."
+
+// "Oh wow, isn't that cool? 😎 `git rebase` grants you unlimited control over the shape of any branch. You can use it to reorder commits, or to remove incorrect changes, or modify a change in retrospect."
+
+// "What would happen if I used this command again? And ran `git reset --hard HEAD@{1}`? Git would set `HEAD` to where `HEAD` was pointing before the last `reset`, meaning to 'Commit 2'. We can keep going all day!"
