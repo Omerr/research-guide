@@ -8,6 +8,12 @@ I use a casual tone, why?
 - Aramites
 - 11
 
+To decide whether you should pursue a research task...
+The need comes from the clients
+You conduct pre-research to understand the problem
+You get a sense of how hard it is
+You get a senfe if you have the right people for it
+You assign some time to make a more educated decision
 
 Break down of leader goals (high level in chapter 3)
 
