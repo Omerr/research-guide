@@ -21,3 +21,7 @@ The main roles of a leader, when it comes to Research tasks, are:
 1. Connect the Research to the Product.
 2. Ask the right questions.
 3. Puruse the right heuristics to answer these questions.
+
+To the methodology - add: Make them write a jouranl!
+
+Taking shortcuts - 80-20 rule.
