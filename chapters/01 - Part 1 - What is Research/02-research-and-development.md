@@ -91,6 +91,12 @@ Perhaps the most damaging misconception, as it has direct practical implications
 
 Research requires different approaches as I'll explore in later chapters.
 
+### Misconception 4: Research Cannot Be Managed
+
+Another claim I encountered is that Research cannot be managed at all. It is a mystical task performed by extremely talented people. The best a manager can do is not interrupt.
+
+I had the pleasure and privilege to work with many extremely skilled researchers. I can confidently say that this is simply not the case, as even the most talented researcher can benefit from skillful guidance.
+
 ## Summary
 
 In this chapter, TBD
