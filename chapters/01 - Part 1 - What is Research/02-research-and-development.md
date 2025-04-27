@@ -84,7 +84,6 @@ Another misconception is that implementing sophisticated algorithms constitutes 
 
 For instance, implementing a machine learning pipeline using established methods like random forests or neural networks isn't Research, even though the underlying algorithms are sophisticated. The Research happened when these algorithms were first developed and their properties established.
 
-
 ### Misconception 3: Research Can Be Managed Like Development
 
 Perhaps the most damaging misconception, as it has direct practical implications, is that Research can be managed using the same processes and timelines as Development work. This leads to inappropriate expectations and frustration for both Researchers and business stakeholders.

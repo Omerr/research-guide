@@ -5,19 +5,19 @@ Research in Software Companies: A Practical Guide
    1.2 Who Should Read This Book
 
 2. Fundamentals of Research in Software Contexts
-   2.1 Problem Solving as the Foundation of Research - 2.1.1 Schoenfeld's Problem Solving Model
+   2.1 Problem Solving as the Foundation of Research - Schoenfeld's Problem Solving Model
    2.2 Distinguishing Research from Advanced Development
-   
-   2.3 The Research-Development Spectrum
-      (Theoretical Research: Creating New Knowledge
-      Applied Research: Bridging Theory and Practice
-      Product-Oriented Research: Solving Novel Problems
-      Development: Implementing Known Solutions)
 
+   
 3. Connecting Research to Product Impact
    3.1 Aligning Research with Business Goals
       3.1.1 Identifying High-Impact Research Areas
       3.1.2 Mapping Research to Product Roadmaps
+
+A leader's goal in managing research
+1. Connect to the Product
+2. Ask the right questions
+3. Puruse the right heuristics
    
 
 4. Processes for Large-Scale Research Initiatives
@@ -35,22 +35,14 @@ Research in Software Companies: A Practical Guide
       4.3.2 Structured Brainstorming Approaches
       4.3.3 Prioritization Frameworks and Decision Models
    
-   4.4 Execution and Completion
-      4.4.1 Forming and Managing Research Teams
-      4.4.2 Collaboration Models for Complex Research
-      4.4.3 Documentation and Knowledge Transfer
-
+ 
 5. Research Management Practices
    5.1 Research Methodologies in Software Contexts
       5.1.1 Setting Methodology Objectives
       5.1.2 The Research Tree Approach
       5.1.3 Situational Brainstorming Techniques
       5.1.4 Time-Bounded Research Methods
-   
-   5.2 Managing Research Teams
-      5.2.1 Researcher Profiles and Team Composition
-      5.2.2 Creating Psychological Safety for Exploration
-      5.2.3 Incentives and Recognition in Research Settings
+
    
    5.3 Practical Management Tools
       5.3.1 Complete Research Process Framework
