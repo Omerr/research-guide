@@ -2,7 +2,7 @@
 
 # Part 2 - Research for Product
 
-## Chapter 3 - TBD NAME {#tbd-name}
+## How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
 In Part 1...
 
@@ -27,7 +27,7 @@ In this part of the book, you will focus on the first. In later parts (//TBD - w
 
 Note that sometimes companies pursue research for other goals - such as marketing (by positioning themselves at the cutting edge of their field). In this case, the current chapter is only somewhat relevant, yet I believe that readers in such companies will learn from it as well.
 
-## Connecting Research to Product Impact
+### Connecting Research to Product Impact
 
 In [chapter 2](#Research-and-development) you learned about the distinction between Research and Development tasks. There are many tasks that clearly fall into the Research category, but are simply irrelevant in a commercial setting. Research for the sake of creating knowledge is done in the academia, and has its own merits - but commercial organizations will (almost) never prioritize such tasks.
 
@@ -35,8 +35,37 @@ In software organizations, Research is often conducted to make a big product imp
 
 Whether you lead Research or conduct Research tasks yourself, you *must* be obsessive about connecting your research to the product. In this part you will get practical tools to do so.
 
-# How to choose research directions
-# Is it even worth research?
-# Drawing backwards
-# E2E
-## Small E2E
+### Research Initiatives
+
+In general, research initiatives can start from two different places:
+
+1. From a problem that the product is facing.
+2. From a technological opportunity.
+
+#### 1. From a Concrete Problem
+
+The most promising way to find research initiatives that will have a big impact on the product is to start from an acute problem that the product is facing. For example, at Swimm, we used to allow users to write documents about their code, but inevitably, the code changed, and the documentation became outdated. This made the it not worth the effort of writing documentation in the first place. We needed to find a way to make sure the documentation is always up to date, automatically, and with a good user experience. This was a clear problem we faced, and we didn't know at that time if it was even possible to solve.
+
+Consider a different example - a medical company that wants to diagnose a disease based on a few blood samples. Currently, they have an algorithm in place, but it is not very accurate. Specifically, it yields too many false positives. They need to find a way to improve their prediction accuracy. This is a clear problem that the product is facing, and it doesn't have a clear technological solution.
+
+In both cases, the problem is clear, and its impact on the product or comapny is clear. At the same time, the solution is not clear, and it is not certain that the solution will be technologically feasible.
+
+#### 2. From a Technological Opportunity
+
+When generative AI became popular, many companies started to explore how to leverage it to improve their products. This is an example of an emerging technology that can enable new product features. 
+
+The same can happen from smaller, more specific technologies, and not necessarily new technologies, but rather - technologies that the relevant teams just familiarized themselves with. For example, if a researcher read a paper about a new way to parse source code, that researcher might have an idea for a new product feature that can leverage this technology.
+
+While many good ideas come from technological opportunities, it is important to remember that the real impact of the research is determined by the product, and not the technology. It is way more risky to pursue a technological opportunity than a concrete problem. In that case, your responsibility is to make sure that the technological opportunity, if it is pursued and if the research is successful, will indeed have a big impact on the product.
+
+<add a table here - opportunity vs problem, with the pros and cons of each>
+
+### Should you Pursue a Research Initiative?
+// product impact
+// time to impact
+// risk
+// resources
+// use ttl to learn enough to evaluate
+
+
+### How to Choose Research Initiatives - Summary
