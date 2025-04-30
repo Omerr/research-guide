@@ -71,6 +71,10 @@ alwaysApply: true
 - First person plural (avoid "we will explore" - use "you will explore" or "I'll show you")
 - Too many emoticons or exclamation marks
 
+// Specific rules
+// Don't use "e.g.," - instead, use "for example"
+// don't use "etc." - instead, use "and so on"
+
 // Editing Process
 1. First pass: Ensure technical accuracy and logical flow
 2. Second pass: Add conversational elements with measured enthusiasm
