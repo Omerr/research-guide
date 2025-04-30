@@ -1,0 +1,6 @@
+
+It was a late evening, and the classroom was filled with three dozen students. They were all sitting in front of their computers, working in silence. It was a training that I led, focusing on cyber security, and they were tackling reverse engineering challenges. Each exercise usually included a single compiled program without its source code, and held one goal - "understand how this program works", and the output would either be a detailed document, an equivalent program implemented in some high level programming language, or both.
+
+This late evening, the students were furiouslyt working on reverse engineering a game. The instruction was - "understand the game's rules, and document them thoroughly". The game had a user interface with two dimensions, and could be played against the computer. Moving behind the students, I could see their screens with various reverse engineering programs.
+
+At some point we asked them to stop, turn around and look at the instructor. The instructor then provided a guided solution - this is a technique we used quite frequently, showing the students the "right" way to approach a problem they have spent some time tackling. The instructor opened the game, looked at the screen, opened the "File" menu, clicked on "Help" - and there it was, the entire descrpition of the game rules.
