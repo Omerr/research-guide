@@ -27,6 +27,8 @@ The leader has two main responsibilities:
 1. That the Research makes the biggest possible impact on the product.
 2. That the Research is done in the most effective manner.
 
+The first responsibility is the leader's **most important role** when it comes to Research. If you don't achieve it, you make cause more harm than good to the organization. If you ever have a doubt about the Research's impact on the product, you should stop and deal with this doubt before moving on.
+
 In this part of the book, you will focus on the first. In later parts (//TBD - which) you will learn about the latter.
 
 Note that sometimes companies pursue research for other goals - such as marketing (by positioning themselves at the cutting edge of their field). In this case, the current chapter is only somewhat relevant, yet I believe that readers in such companies will learn from it as well.
@@ -35,6 +37,6 @@ In [chapter 2](#Research-and-development) you learned about the distinction betw
 
 In software organizations, Research is often conducted to make a big product impact. That means that if you choose to lead a Research task, you must be aware that the real success of this task comes from its impact on the product, and not the technological success. It is extremely frustrating to have a research task complete, just to find out that it hasn't really made an impact - it is frustrating to the researcher, to their manager, and to the organization.
 
-Whether you lead Research or conduct Research tasks yourself, you *must* be obsessive about connecting your research to the product. In this part you will get practical tools to do so.
+Whether you lead Research or conduct Research tasks yourself, you *must* be obsessive about connecting your Research to the product, as **this is your most important role**. In this part you will get practical tools to do so.
 
 // TODO - connect to other chapters
