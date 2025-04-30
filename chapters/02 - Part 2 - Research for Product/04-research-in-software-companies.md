@@ -6,7 +6,7 @@
 
 In Part 1...
 
-### Research in Software Companies
+### Research in Software Companies {#research-in-software-companies}
 
 Part 2 focuses on what Research means in Software companies, especially those building products. Given common misconceptions regarding Research (as described in [chapter 2](#Research-and-development)), many organizations choose to not invest time and effort in Research tasks.
 
