@@ -73,8 +73,9 @@ We deliberately refrained from solving hard technological research challenges be
 Another thing we got from this "exercise", was to have a concrete example where we could ask ourselves - what would be the way to get to this document?
 
 For example, we saw that we listed many conditions. That made us realize we would need to:
-1. Find conditions
-2. Filter out business-related conditions
+
+1. Find conditions.
+2. Filter out business-related conditions.
 3. Explain the condition in a document.
 
 Since we are drawing backwards here, we would tackle (3) before we tackle (2), and we would tackle (2) before tackling (1). Why is that? Because we have to solve (3) in order to get to our goal - a document with the biggest possible impact.
@@ -90,6 +91,7 @@ While it is true that in order to reach (3) we would need to solve (2) and (1), 
 ## Why Drawing Backwards is so Powerful
 
 We can see the advantages of drawing backwards:
+
 1. It forces you to connect to the business impact.
 2. It provides a mechanism to progress when the Research seems like a huge, daunting task with endless options.
 3. It makes us validate that we are solving a sub-task that would get us closer to the goal.
