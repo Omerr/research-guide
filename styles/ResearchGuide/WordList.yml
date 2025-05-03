@@ -1,0 +1,11 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: false
+swap:
+  (?:filesystem|Filesystem): file system
+  fast forward: fast-forward
+  (?:git|Git): Git
+  e.g.: for example
+  i.e.: that is
+  etc.: and so on
