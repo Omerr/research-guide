@@ -14,7 +14,7 @@ It was a hot summer day in Atlanta, Georgia. I had flown there to represent my c
 
 You can see the game from the original booth here:
 
-https://photos.google.com/search/atlanta/photo/AF1QipPIoGfmBHOSGdzd1MtAeSiGF-Wgs2AlHIR8-DAa
+![https://photos.google.com/search/atlanta/photo/AF1QipPIoGfmBHOSGdzd1MtAeSiGF-Wgs2AlHIR8-DAa](Spiral game)
 
 In the image above - the duck is on spot number `41`. Each player, at their turn, moves the duck between 1 to 6 spots. So if the duck is on spot `41`, the player can move it to any spot between `40` and `35`. The player who moves the duck to spot `1` wins the game.
 
