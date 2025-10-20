@@ -274,4 +274,4 @@ End-to-end iterations work best when combined with other research management too
    - Learned necessity (is it broken?)
    - Learning potential (what will you learn?)
    - Effort estimation (how long will it take?)
-5. **Get frequent feedback** - Fast cycles (days to weeks) focused on learning
+5. **Get frequent feedback** - Fast cycles (days to weeks) focused on learning.
