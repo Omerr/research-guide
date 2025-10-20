@@ -464,5 +464,5 @@ The Research Tree is a living visual framework that:
 2. Which has lowest cost?
 3. Which answers the most questions?
 
-Ready to see how we populate this tree with even more approaches? Let's explore structured brainstorming.
+In the next chapter, you'll learn how to manage execution using time-boxing and decision points to keep your Research moving forward without getting stuck.
 

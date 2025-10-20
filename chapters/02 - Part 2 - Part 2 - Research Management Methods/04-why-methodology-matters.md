@@ -29,9 +29,7 @@ This is exactly why you need structured methods for Research management. Without
 The rest of Part 2 provides concrete tools to prevent these problems. You'll learn:
 
 - **The Research Tree** - A visual framework for systematically exploring solution paths.
-- **Structured brainstorming** - How to generate and evaluate approaches as a team.
 - **Time-boxing methods** - How to limit exploration without killing creativity.
-- **Decision frameworks** - When to pivot, when to persist, when to ask for help.
 
 These aren't abstract concepts. They're battle-tested techniques that directly address the failure modes you've probably seen: teams spinning their wheels, giving up too early, or getting stuck on the wrong approach.
 
