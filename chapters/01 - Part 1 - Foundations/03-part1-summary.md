@@ -9,8 +9,8 @@
 - Healthy beliefs and persistence
 
 **Your role** as a Research leader is to:
-1. Ensure Research connects to product impact
-2. Ensure Research is done effectively
+1. Ensure Research connects to product impact.
+2. Ensure Research is done effectively.
 
 **You need different tools** to manage Research versus Development.
 

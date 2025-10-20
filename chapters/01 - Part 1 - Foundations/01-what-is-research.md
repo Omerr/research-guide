@@ -29,7 +29,7 @@ The distinction isn't about difficulty or technical sophistication. It's about *
 - Following established approaches, even if complex.
 - Clear success criteria tied to working software.
 
-I've found Alan Schoenfeld's model of problem solving to be a useful framework for defining and analyzing research. Schoenfeld, studying how people solve mathematical problems, identified four** components that determine success when facing genuinely uncertain problems. His framework applies directly to software Research:
+I've found Alan Schoenfeld's model of problem solving [1] to be a useful framework for defining and analyzing research. Schoenfeld, studying how people solve mathematical problems, identified four** components that determine success when facing genuinely uncertain problems. His framework applies directly to software Research:
 
 ### Schoenfeld's Framework for Problem Solving
 
@@ -83,13 +83,13 @@ The issue isn't (necessarily) capability. It's that Research requires different 
 
 The rest of this book provides concrete tools, like using a Research Tree, structured brainstorming, and time-boxing methods, that put Schoenfeld's framework into action in a Product-led environment. These tools help you and your team apply better heuristics, maintain effective control, and build the beliefs that sustain successful Research.
 
-But first, let's make sure we're clear on when you actually need these tools. The next chapter dives deeper into distinguishing Research from Development work.
+But first, let's make sure we're clear on when you actually need these tools. [The next chapter](#Research-and-development) dives deeper into distinguishing Research from Development work.
 
 ### Notes
 ** Actually, Schoenfeld (1992) described five components (which he terms "categories"), but I focused on four of them.
 
 ### References
 
-Schoenfeld, A. H. (1992). Learning to think mathematically: Problem solving,
+[1] Schoenfeld, A. H. (1992). Learning to think mathematically: Problem solving,
 metacognition, and sense-making in mathematics. In D. Grouws (Ed.), Handbook for
 Research on Mathematics Teaching and Learning (pp. 334-370). New York: MacMillan.
