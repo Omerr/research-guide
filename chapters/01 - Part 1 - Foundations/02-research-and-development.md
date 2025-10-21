@@ -98,7 +98,7 @@ This means:
 - Regularly validating that the Research still serves the product goal.
 - Making trade-offs between thorough exploration and shipping impact.
 
-(We'll cover this in detail in [Part 3](#part3-product-led-research).)
+(We'll cover this in detail in [Part 3](#part3-ensuring-product-impact).)
 
 **2. Ensure the Research is done in the most effective manner**
 
