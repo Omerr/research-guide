@@ -6,8 +6,7 @@ In [chapter 2](#research-and-development), I argued that your role as a Research
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
-Part 2 gave you tools that work for ANY research context, accounting for (2) above. This part provides 
-the complete answer to ensuring product impact:
+Part 2 addressed (2) above - ensuring Research is done effectively - with tools that work in ANY research context. This part provides the complete answer to (1) - ensuring Research connects to product impact:
 - First, choose research that matters ([chapter 6](#how-to-choose-research-initiatives)).
 - Then, work backwards from product value ([chapter 7](#drawing-backwards)).
 - Continuously validate with end-to-end iterations ([chapter 8](#end-to-end)).
