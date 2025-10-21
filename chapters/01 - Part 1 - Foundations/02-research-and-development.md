@@ -98,7 +98,7 @@ This means:
 - Regularly validating that the Research still serves the product goal.
 - Making trade-offs between thorough exploration and shipping impact.
 
-(We'll cover this in detail in Part 3 <TBD LINK>)
+(We'll cover this in detail in [Part 3](#part3-product-led-research).)
 
 **2. Ensure the Research is done in the most effective manner**
 
@@ -110,6 +110,6 @@ This means:
 - Introducing better heuristics when the team is stuck ("Let's work backwards," "Let's time-box this investigation").
 - Preventing common failure modes like endless exploration or premature commitment.
 
-(We'll cover this in detail in Part 2 <TBD LINK>)
+(We'll cover this in detail in [Part 2](#part2-research-management-methods).)
 
 The rest of this book provides concrete tools for both responsibilities.

@@ -1,6 +1,6 @@
 \newpage
 
-# Part 2 - Research Management Methods
+# Part 2 - Research Management Methods {#part2-research-management-methods}
 
 ## Chapter 3 - Why Methodology Matters: A True Story {#why-methodology-matters}
 

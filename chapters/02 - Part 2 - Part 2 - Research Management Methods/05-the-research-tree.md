@@ -428,8 +428,7 @@ The tool doesn't matter. What matters is that the tree exists, is visible, and g
 
 **Start with the most important question**
 
-Don't try to list all possible questions upfront. Start with the one question that, if answered, would most clarify your path forward. Answer it, then see what new questions emerge.
-<TBD - link to drawing backwards>
+Don't try to list all possible questions upfront. Start with the one question that, if answered, would most clarify your path forward. Answer it, then see what new questions emerge. More on finding the questions to start from - in [chapter 7](#drawing-backwards).
 
 **Show how answers lead to new questions**
 
