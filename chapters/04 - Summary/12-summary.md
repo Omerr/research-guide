@@ -95,3 +95,20 @@ Research is fundamentally uncertain work. Applying traditional Development manag
 But Research doesn't have to be mystical or random. With the right frameworks, you can manage it systematically while maintaining focus on what matters: creating product value. You learned to ensure Research is done effectively (part 2) and connects to product impact (part 3). You have concrete tools, real examples, and a clear framework for both responsibilities.
 
 Now go turn your team's uncertain Research into systematic progress toward measurable product impact. I am confident you can lead Research teams to success, and I would be happy to hear about your experiences applying these methods.
+
+If you liked this book, please share it with more people.
+
+### Acknowledgements {#acknowledgements}
+
+<TBD>
+
+\newpage
+
+### Contact Me
+
+If you liked something about this book, felt that something was missing or needed improvement - I would love to hear from you. Please reach out at: `gitting.things@gmail.com`.
+
+
+Thank you for learning and allowing me to be a part of your journey.
+
+\- Omer Rosenbaum
