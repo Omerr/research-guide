@@ -35,7 +35,7 @@ I've found Alan Schoenfeld's model of problem solving [1] to be a useful framewo
 
 **1. Knowledge Base** — What you know
 
-Are you familiar with relevant tools, algorithms, techniques?
+Are you familiar with relevant tools, algorithms, and techniques?
 
 For COBOL business rule extraction: Do you understand COBOL syntax? Static analysis? Program comprehension techniques?
 
