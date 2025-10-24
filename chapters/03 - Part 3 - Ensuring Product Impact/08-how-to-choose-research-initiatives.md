@@ -14,7 +14,7 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
-The very first step in making sure your Research impacts the product is choosing the right thing to research, and, just as important - avoiding research that won't impact the product.
+The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding research that won't impact the product.
 
 Research initiatives can start from two different places:
 
@@ -27,7 +27,7 @@ The most promising way to find research initiatives that will have a big impact 
 
 At [Swimm](https://swimm.io), we allowed users to write documents about their code, but inevitably, the code changed, and the documentation became outdated. This made writing documentation not worth the effort in the first place. We needed to find a way to make sure the documentation stayed up to date automatically, with a good user experience. This was a clear problem we faced, and we didn't know if it was even possible to solve.
 
-Consider a different example - a medical company that wants to diagnose a disease based on a few blood samples. Currently, they have an algorithm in place, but it's not very accurate. Specifically, it yields too many false positives. They need to find a way to improve their prediction accuracy. This is a clear problem the product is facing, and it doesn't have a clear technological solution.
+Consider a different example: a medical company that wants to diagnose a disease based on a few blood samples. Currently, they have an algorithm in place, but it's not very accurate. Specifically, it yields too many false positives. They need to find a way to improve their prediction accuracy. This is a clear problem the product is facing, and it doesn't have a clear technological solution.
 
 In both cases, the problem is clear, and its impact on the product or company is clear. At the same time, the solution is not clear, and it's not certain that a solution will be technologically feasible.
 
@@ -94,8 +94,8 @@ Consider also whether you can achieve **incremental value**. Can you get *some* 
 Research requires specific resources beyond just "engineering time":
 
 **Knowledge**: Do you have team members familiar with the relevant:
-- Technical domain (e.g., NLP, compiler design, distributed systems)?
-- Business domain (e.g., medical diagnostics, financial regulations)?
+- Technical domain (for example, NLP, compiler design, distributed systems)?
+- Business domain (for example, medical diagnostics, financial regulations)?
 - Similar problems solved elsewhere?
 
 If not, can you acquire this knowledge in reasonable time? (Reading papers for a week: reasonable. Earning a PhD: not reasonable.)
