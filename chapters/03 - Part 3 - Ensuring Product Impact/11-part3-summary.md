@@ -5,7 +5,7 @@ In [chapter 2](#research-and-development), you learned that your role as a Resea
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
-[Part 2](#part2-research-management-methods) handled ensuring Research is done effectively. This part handled ensuring Research connects to product impact - your most important responsibility.
+[Part 2](#part2-research-management-methods) handled ensuring Research is done effectively. This part discussed ensuring that Research connects to product impact - your most important responsibility.
 
 **The Three Stages of Product-Led Research**
 
@@ -24,16 +24,16 @@ Run focused pre-research checks to answer these questions. Only pursue Research 
 
 **Stage 2: Start from product value and work backwards** ([chapter 7](#drawing-backwards))
 
-Once you've chosen what to research, the drawing backwards heuristics ensures you start right. Instead of diving into technical challenges, start from the end:
+Once you've chosen what to research, the drawing backwards heuristics ensure that you start right. Instead of diving into technical challenges, start from the end:
 
 1. **Manually create the desired output** - What should successful Research produce? Create it by hand before solving any technical problems.
 2. **Validate with stakeholders or customers** - Show them the output and confirm it solves their problem.
 3. **Work backwards through dependencies** - From that validated output, identify what you need to produce it, then what you need for that, working your way back to your starting point.
-4. **Solve in reverse order** - Tackle the final step first (with earlier steps mocked), validating each step contributes to the goal before investing heavily in earlier dependencies.
+4. **Solve in reverse order** - Tackle the final step first (with earlier steps mocked), validating that each step contributes to the goal before investing heavily in earlier dependencies.
 
 The spiral game example showed why this works: working backwards from the goal reveals systematic solutions that working forward obscures.
 
-Drawing backwards forces product connection because you literally start with product output. It integrates with the Research Tree ([chapter 4]({#the-research-tree})) - While drawing backwards identifies *what* questions matter, the Tree helps you explore approaches for answering them.
+Drawing backwards forces product connection because you literally start with product output. It integrates with the Research Tree ([chapter 4]({#the-research-tree})): While drawing backwards identifies *what* questions matter, the Tree helps you explore approaches for answering them.
 
 **Stage 3: Validate and build iteratively** ([chapter 8](#end-to-end))
 
