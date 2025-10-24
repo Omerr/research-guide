@@ -2,7 +2,7 @@
 
 ## Chapter 8 - End-to-End Iterations {#end-to-end}
 
-Your most important role is ensuring Research impacts the product. One major risk: spending weeks on research questions that seem vital, only to discover they don't actually impact the product.
+Your most important role is ensuring that Research impacts the product. One major risk: spending weeks on research questions that seem vital, only to discover they don't actually impact the product.
 
 In [chapter 7](#drawing-backwards), I advocated for drawing backwards - starting from product impact and working your way back to research questions. This is indeed powerful, especially because it forces you to focus on the end result and validate it with users.
 
@@ -95,8 +95,10 @@ For our COBOL example:
 
 **End result:** A rough-looking document that works solely on a single program. This is far from shippable, but it's an extremely important milestone for ensuring research impacts the product.
 
-You might argue that it's an overkill, and why waste this time on manual steps when you'll need to automate them eventually. Even if you don't, I promise from experience - that many researchers and engineers feel that way. From my own experience, I learned (the hard way) that this pays off. Getting to a working end-to-end makes sure you:
-- Validate the entire flow works.
+You might argue that it's overkill, and why waste this time on manual steps when you'll need to automate them eventually? Even if you don't, I promise from experience that many researchers and engineers feel that way. 
+
+From my own experience, I learned (the hard way) that this pays off. Getting to a working end-to-end makes sure you:
+- Validate that the entire flow works.
 - Identify bottlenecks and blockers early.
 - Have something concrete to show and get feedback on.
 - Prevent spending months on one component that turns out to be unnecessary.
@@ -121,8 +123,8 @@ This is where creativity matters. For our COBOL example:
 - Yes, you'll miss some conditions - that's a problem for *later*.
 
 **UX shortcuts:**
-- Skip the document generation; just print rules to console.
-- Run from command line without a GUI.
+- Skip the document generation. Just print rules to the console.
+- Run from the command line without a GUI.
 - Manual configuration file instead of user interface.
 
 **Your goal is clear: ship it.**
@@ -140,7 +142,7 @@ It doesn't need to be perfect. It needs to be enough to learn from this iteratio
 - Production-quality code.
 - Beautiful user interface.
 
-You can't ship *anything*, however. In our example, if you only have a solution that works on one specific test program you created, generating an irrelevant document for the client wastes time and teaches you nothing.
+You can't ship just *anything*, though. In our example, if you only have a solution that works on one specific test program you created, generating an irrelevant document for the client wastes time and teaches you nothing.
 
 You can't learn from iteration without shipping. And you can't ship without a working end-to-end process. I know it sounds obvious, but many teams miss this in practice as they get into the rabbit hole of solving one step "the right way" before validating the entire flow.
 
@@ -158,7 +160,7 @@ After shipping, you'll have many things you think you *must* replace immediately
 Prioritize changes based on three criteria:
 
 **1. Learned Necessity**
-Did you learn something doesn't work in the current implementation and must be fixed for the product to be viable?
+Did you learn that something doesn't work in the current implementation and must be fixed for the product to be viable?
 
 *Example: "Regular expressions miss nested conditions, and 60% of the client's business rules are in nested conditions. We must use a real parser."*
 
@@ -264,7 +266,7 @@ End-to-end iterations work best when combined with other research management too
   - The target output.
   - The hypothesized chain of intermediary steps to reach it.
 - End-to-end iterations validate that hypothesized chain on real data and build it incrementally.
-- Use both: drawing backwards reveals what to build; end-to-end iterations prove it works and builds it.
+- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and build it.
 
 **The five principles:**
 1. **Outline the process** - Draw backwards already gives you this: the chain from input to output.
