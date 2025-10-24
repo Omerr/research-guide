@@ -39,11 +39,11 @@ But if you need to understand how an entire program operates, and one *possible*
 
 **1. Fundamental Uncertainty About Solution Viability**
 
-You're asking "Can this even be done?" rather than "How should we do this?" This isn't about implementation details, rather - it's about whether the approach itself is viable.
+You're asking "Can this even be done?" rather than "How should we do this?" This isn't about implementation details – rather, it's about whether the approach itself is viable.
 
 **2. Multiple Competing Approaches Without Clear Superiority**
 
-Research often means exploring several paths simultaneously, knowing many will fail, to discover which approach (if any) can solve the problem.
+Research often means exploring several paths simultaneously, knowing that many will fail, to discover which approach (if any) can solve the problem.
 
 **3. Need for New Fundamental Techniques**
 
@@ -75,7 +75,7 @@ Research requires different approaches. This is exactly what the rest of this bo
 
 The opposite extreme: treating Research as mystical work by brilliant people. The best a manager can do is not interrupt.
 
-I had the pleasure and privilege to work with many extremely skilled researchers. I can confidently say that this is simply not the case, as even the most talented researcher can benefit from skillful guidance.
+I've had the pleasure and privilege to work with many extremely skilled researchers. I can confidently say that this is simply not the case, as even the most talented researcher can benefit from skillful guidance.
 
 Specifically, even the most talented researcher benefits from:
 
