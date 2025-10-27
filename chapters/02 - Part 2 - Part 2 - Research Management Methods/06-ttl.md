@@ -13,3 +13,14 @@ In case we did continue to work on this task for the whole allocate time frame (
 At this point you may feel like you are very close to getting an answer from this direction, so you may define a new time limit - say, of a single day. In other cases, you may realize that this direction turned out to be harder, and you'd need at least one more week. Perhaps it's time to reconsider.
 
 Time boxing research directions is a tool for research management, acknowledging the inherent challenge of providing time estimations for research tasks. It is not intended to put pressure on a researcher to finish a task "on time".
+
+### Tips for Effective Time-Boxing
+
+When consulting the research tree ([chapter 4](#the-research-tree)), and deciding on tackling a specific research direction, work with these tips in mind:
+
+1. Ask yourself how much time you anticipate needing to make meaningful progress on this direction. In general, you need to know whether it's short than a day, around a few days, or longer than a week.
+2. In case it's shorter than a day - just get it done. You can time-box it for a single day, but don't overthink it.
+3. In case it's a few days - define a time box of 2-5 days, depending on the estimation. I usually time-box for a bit less than the expected time - for example, if I estimate 4 days, I may time-box for 3 days. The goal is to stop and reconsider given the additional information you have at that point, not to pressure you to finish the task.
+4. In case it's longer than a week - define a time box of one week. I don't see any case where *not* stopping to consider after a week is desirable.
+
+Don't overthink time-boxing, especially not the exact time limits. The goal is to create natural stopping points to reconsider your research directions.
