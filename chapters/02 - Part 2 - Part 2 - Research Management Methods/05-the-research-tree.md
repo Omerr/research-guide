@@ -45,6 +45,8 @@ Until you answer this, you don't know which approaches make sense. Let's draw th
       Where is the bottleneck?
 ```
 
+You can use a simple pen and paper, a whiteboard, or a digital tool to draw this out. When creating your very first tree, I highly recommend doing it by hand - the physical act of drawing will help you feel comfortable with the process.
+
 Now, how can you answer this question? What approaches might tell you where the bottleneck is?
 
 You might identify:
@@ -65,6 +67,8 @@ Let's add these as branches:
    Profile  Logging  DB Analysis
     (Yellow) (Yellow) (Yellow)
 ```
+
+(Note: the Yellow status means "uncertain, needs investigation" - more on this later.)
 
 Each approach is an investigation you could run to answer the question.
 
