@@ -12,7 +12,7 @@ Let's be precise.
 
 Schoenfeld defined problem solving as "applying knowledge to overcome obstacles and reach a goal **where a direct solution path is not immediately obvious to the solver.**"
 
-Applying this to software:
+As a reminder from [chapter 1](#what-is-research), applying this to software:
 
 **Research** involves fundamental uncertainty:
 
