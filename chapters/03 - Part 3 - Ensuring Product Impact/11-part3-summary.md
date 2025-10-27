@@ -1,15 +1,15 @@
 \newpage
 ## Part 3 Summary {#part3-summary}
 
-In [chapter 2](#research-and-development), you learned that your role as a Research leader is to:
+Back in [chapter 2](#research-and-development), you learned that your role as a Research leader is to:
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
-[Part 2](#part2-research-management-methods) handled ensuring Research is done effectively. This part handled ensuring Research connects to product impact - your most important responsibility.
+[Part 2](#part2-research-management-methods) handled ensuring Research is done effectively.
+
+[Part 3](#part3-ensuring-product-impact) handled ensuring Research connects to product impact - your most important responsibility. This part provided a complete methodology for ensuring product impact through three complementary stages:
 
 **The Three Stages of Product-Led Research**
-
-Part 3 provided a complete methodology for ensuring product impact through three complementary stages:
 
 **Stage 1: Choose research that matters** ([chapter 6](#how-to-choose-research-initiatives))
 
