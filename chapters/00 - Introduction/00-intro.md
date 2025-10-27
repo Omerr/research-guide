@@ -82,8 +82,7 @@ Your feedback helps make this book better for everyone. Please reach out at: git
 
 ## Acknowledgments {#acknowledgements}
 
-[You'll add your acknowledgments here]
+<TBD>
 
----
 
 Now, let's begin. In Chapter 1, you'll learn exactly what makes Research different from Development, and why managing them differently matters.

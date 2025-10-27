@@ -325,7 +325,7 @@ Without a tree, people implement the first approach they think of. The tree forc
 People lock onto one approach without considering alternatives. The tree makes alternatives visible and helps you choose the best starting point.
 
 **3. Inefficient Learning**
-Teams try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
+Teams might try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
 
 **4. Answering Questions You Don't Need To**
 Teams waste time investigating interesting but irrelevant questions. The tree shows how questions connect - you only need to answer questions that lead to your goal.
@@ -407,7 +407,7 @@ Answer         Answer
 
 **Key elements:**
 - Start with your goal at the root.
-- First question branches from the goal.
+- The first question branches from the goal.
 - Approaches to answer that question branch from it.
 - Evaluate each approach (feedback speed, cost, coverage).
 - Mark your best starting point.
