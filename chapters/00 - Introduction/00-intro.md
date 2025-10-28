@@ -74,7 +74,7 @@ The book is organized in three parts:
 
 ## Feedback Is Welcome
 
-This book has been created to help you and people like you manage Research effectively and ensure it creates product impact.
+I created this book to help you and people like you manage Research effectively and ensure it creates product impact.
 
 From the beginning, I asked for feedback from experienced leaders and researchers to make sure the book achieves these goals. If you found something valuable, felt something was missing, or thought something needed improvement — I would love to hear from you.
 
