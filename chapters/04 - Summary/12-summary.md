@@ -100,7 +100,19 @@ If you liked this book, please share it with more people.
 
 ### Acknowledgements {#acknowledgements}
 
-<TBD>
+I am extremely lucky to have such wonderful people supporting me in this journey.
+
+Abbey Rennemeyer has been a wonderful editor. Abbey had edited my posts for freeCodeCamp in the last few years, as well as my previous book Gitting Things Done, so I knew she was the perfect fit for this book as well. Her insights both on the content and the writing style have greatly improved this book.
+
+Quincy Larson founded the amazing community at freeCodeCamp. I thank him for starting this incredible community, his ongoing support, and for his friendship.
+
+Estefania Cassingena Navone designed the cover of this book. I am grateful for her professional work and her patience with my perfectionism and requests.
+
+Dr. David Ginat introduced me first to Alan Schoenfeld's problem-solving research during my time at Tel Aviv University. His teaching inspired me to apply these ideas in practical contexts, including Research management.
+
+I was privileged to work with many brilliant researchers and engineering leaders over the years, too many to name here.
+
+To readers of my previous book, Gitting Things Done, who were kind enough to provide feedback and support — you are awesome. Receiving your emails and comments made me feel like there is a real reason to keep writing.
 
 \newpage
 

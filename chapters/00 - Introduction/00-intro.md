@@ -80,9 +80,4 @@ From the beginning, I asked for feedback from experienced leaders and researcher
 
 Your feedback helps make this book better for everyone. Please reach out at: gitting.things@gmail.com.
 
-## Acknowledgments {#acknowledgements}
-
-<TBD>
-
-
 Now, let's begin. In Chapter 1, you'll learn exactly what makes Research different from Development, and why managing them differently matters.
