@@ -18,7 +18,7 @@ Time boxing research directions is a tool for research management, acknowledging
 
 When consulting the research tree ([chapter 4](#the-research-tree)), and deciding on tackling a specific research direction, work with these tips in mind:
 
-1. Ask yourself how much time you anticipate needing to make meaningful progress on this direction. In general, you need to know whether it's short than a day, around a few days, or longer than a week.
+1. Ask yourself how much time you anticipate needing to make meaningful progress on this direction. In general, you need to know whether it's shorter than a day, around a few days, or longer than a week.
 2. In case it's shorter than a day - just get it done. You can time-box it for a single day, but don't overthink it.
 3. In case it's a few days - define a time box of 2-5 days, depending on the estimation. I usually time-box for a bit less than the expected time - for example, if I estimate 4 days, I may time-box for 3 days. The goal is to stop and reconsider given the additional information you have at that point, not to pressure you to finish the task.
 4. In case it's longer than a week - define a time box of one week. I don't see any case where *not* stopping to consider after a week is desirable.
