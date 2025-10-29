@@ -80,7 +80,7 @@ Instead of immediately jumping into "Let's add more logging!" or "I bet it's the
 
 This is already valuable. Most engineers would have jumped straight into whichever approach came to mind first. Maybe you've done this yourself - spent two days adding detailed logging, only to discover later that a profiler would have given you the answer in 30 minutes.
 
-By creating this tree, you've avoided that trap. You can see all the approaches before committing to any of them. It doesn't guarantee you will choose the "right" path - you can't always do that in advance, but it will minimize the chances of you omitting it completely.
+By creating this tree, you've avoided that trap. You can see all the approaches before committing to any of them. It doesn't guarantee you will choose the "right" path - you can't always do that in advance – but it will minimize the chances of you omitting it completely.
 
 Remember the reverse engineering students from [chapter 3](#why-methodology-matters)? They never created this tree. They jumped straight to the first approach they knew: disassemblers and debuggers. They didn't stop to think: "What are all the ways we could understand this game's rules?" If they had, they would have listed approaches like: reverse engineer the binary, check the Help menu, examine config files, watch network traffic. And if they'd evaluated those approaches using the framework you're about to learn, "check the Help menu" would have scored perfectly: fastest feedback (30 seconds), lowest cost (zero), best coverage (complete rules). Instead, they spent hours on complex reverse engineering when a simple menu click would have worked. Don't be those students.
 
@@ -112,7 +112,7 @@ What do you need to set up or change?
 
 **Lower cost wins.** Why spend hours adding logging if you can get the answer without changing any code?
 
-(In your environment - it may be different. Perhaps logging is really easy, while profiling is super hard to set up. I am not claiming that profiling is a better heuristic than logging - it depends on your circumstances.)
+(In your environment, it may be different. Perhaps logging is really easy, while profiling is super hard to set up. I am not claiming that profiling is a better heuristic than logging - it depends on your circumstances.)
 
 **3. Which answers the most questions?**
 
@@ -259,7 +259,7 @@ Now you have three solution approaches. Again, evaluate them:
 - Add Eager Loading: Depends on your ORM, might be quick.
 - DataLoader Pattern: Requires learning new pattern, takes longer.
 
-Rewrite with Joins probably gives fastest feedback if your team knows SQL well.
+Rewrite with Joins probably gives the fastest feedback if your team knows SQL well.
 
 ### The Complete Picture
 
@@ -301,7 +301,7 @@ Joins  Eager Loader       Requests  API
 
 ### Color-Coding Status
 
-When you're constructing your tree, you'll mark both questions and approaches with a particular status:
+When you're creating your Research Tree, you'll mark both questions and approaches with a particular status:
 
 **For Questions:**
 - **Open**: Not yet answered
@@ -314,7 +314,7 @@ When you're constructing your tree, you'll mark both questions and approaches wi
 - **Red**: Dead end or not viable
 
 In our example above:
-- "Rewrite with Joins" is Green because we've identified that it addresses the specific N+1 problem and the team is confident in implementing it.
+- "Rewrite with Joins" is Green because we've identified that it addresses the specific N+1 problem and that the team is confident in implementing it.
 - "Redesign API" is Red because it would take too long for this project.
 - Other approaches are Yellow because we haven't investigated them yet.
 
@@ -362,7 +362,7 @@ Done? Good. You now have your first Research Tree with a clear starting point.
 
 ### Using the Tree with Your Team
 
-Research Trees become even more powerful when shared with a team. It actually provides you, the Lead, with a way to see what directions the team is executing upon, and why. Your job here is to make sure the framework is used. Help your team stop and ask - are we asking the right questions? Are there approaches that we missed? Are we choosing the right approach?
+Research Trees become even more powerful when shared with a team. It actually provides you, the Lead, with a way to see what directions the team is executing upon, and why. Your job here is to make sure the framework is used. Help your team stop and ask: are we asking the right questions? Are there approaches that we missed? Are we choosing the right approach?
 
 **During Planning:**
 - Draw the tree together as a group.
