@@ -26,7 +26,7 @@ This two-part framework organized everything that followed.
 
 **Part 2** gave you concrete methods for effective Research execution - tools that work in *any* research context (whether it's Product-led or not).
 
-In [chapter 3](#why-methodology-matters), I shared with you a personal reverse engineering classroom story. Students with sophisticated technical skills missed the obvious solution (checking the Help menu) because they lacked structured methodology. The story clearly showed that the problem isn't capability, it's approach. This illustrated why you need the methods that followed.
+In [chapter 3](#why-methodology-matters), I shared with you a personal reverse engineering classroom story. Students with sophisticated technical skills missed the obvious solution (checking the Help menu) because they lacked structured methodology. The story clearly showed that the problem isn't capability, it's often approach. This illustrated why you need the methods that follow.
 
 [Chapter 4](#the-research-tree) introduced the **Research Tree** method - a living visual framework for systematically exploring solution paths. You learned:
 - How to map questions you need to answer and approaches for answering them.
@@ -58,7 +58,7 @@ In the COBOL business rules case study, you saw a practical application:
 1. Start by manually creating the desired output (before solving any technical challenges).
 2. Validate that output with stakeholders.
 3. Work backwards through dependencies, solving them in reverse order.
-4. Validate each step contributes to the goal before major investment.
+4. Validate that each step contributes to the goal before major investment.
 
 Drawing backwards forces connection to product impact because you must start with the product goal.
 
@@ -92,9 +92,9 @@ These methods work together. Drawing backwards identifies your goal and the chai
 
 Research is fundamentally uncertain work. Applying traditional Development management practices fails because it assumes known solution paths, predictable timelines, and steady progress.
 
-But Research doesn't have to be mystical or random. With the right frameworks, you can manage it systematically while maintaining focus on what matters: creating product value. You learned to ensure Research is done effectively (part 2) and connects to product impact (part 3). You have concrete tools, real examples, and a clear framework for both responsibilities.
+But Research doesn't have to be mystical or random. With the right frameworks, you can manage it systematically while maintaining focus on what matters: creating product value. You learned to ensure that Research is done effectively (part 2) and that it connects to product impact (part 3). You have concrete tools, real examples, and a clear framework for both responsibilities.
 
-Now go turn your team's uncertain Research into systematic progress toward measurable product impact. I am confident you can lead Research teams to success, and I would be happy to hear about your experiences applying these methods.
+Now go turn your team's uncertain Research into systematic progress toward measurable product impact. I am confident that you can lead Research teams to success, and I would be happy to hear about your experiences applying these methods.
 
 If you liked this book, please share it with more people.
 
@@ -106,7 +106,7 @@ If you liked this book, please share it with more people.
 
 ### Contact Me
 
-If you liked something about this book, felt that something was missing or needed improvement - I would love to hear from you. Please reach out at: `gitting.things@gmail.com`.
+If you liked something about this book, or felt that something was missing or needed improvement - I would love to hear from you. Please reach out at: `gitting.things@gmail.com`.
 
 
 Thank you for learning and allowing me to be a part of your journey.

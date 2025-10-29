@@ -74,7 +74,7 @@ The book is organized in three parts:
 
 ## Feedback Is Welcome
 
-This book has been created to help you and people like you manage Research effectively and ensure it creates product impact.
+I created this book to help you and people like you manage Research effectively and ensure it creates product impact.
 
 From the beginning, I asked for feedback from experienced leaders and researchers to make sure the book achieves these goals. If you found something valuable, felt something was missing, or thought something needed improvement — I would love to hear from you.
 
@@ -82,8 +82,7 @@ Your feedback helps make this book better for everyone. Please reach out at: git
 
 ## Acknowledgments {#acknowledgements}
 
-[You'll add your acknowledgments here]
+<TBD>
 
----
 
 Now, let's begin. In Chapter 1, you'll learn exactly what makes Research different from Development, and why managing them differently matters.
