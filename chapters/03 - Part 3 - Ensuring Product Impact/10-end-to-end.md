@@ -266,7 +266,7 @@ End-to-end iterations work best when combined with other research management too
   - The target output.
   - The hypothesized chain of intermediary steps to reach it.
 - End-to-end iterations validate that hypothesized chain on real data and build it incrementally.
-- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and build it.
+- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and lets you test it incrementally.
 
 **The five principles:**
 1. **Outline the process** - Draw backwards already gives you this: the chain from input to output.
