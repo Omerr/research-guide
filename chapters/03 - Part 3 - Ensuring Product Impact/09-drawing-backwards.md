@@ -186,8 +186,7 @@ Drawing backwards integrates naturally with the Research Tree from [chapter 4](#
 3. Work backwards through dependencies, solving them in reverse order.
 4. Validate that each step contributes to the goal before major investment.
 
-These heuristics ensure that Research connects to product impact, since you start with the product goal. They
-provide systematic progress even when problems seem overwhelming, and they validate each step before you invest heavily.
+This heuristic ensures that Research connects to product impact, since you start with the product goal. It provides systematic progress even when problems seem overwhelming, and makes you validate each step before you invest heavily.
 
 **Integration with other tools:**
 - Use with Research Tree ([chapter 4](#the-research-tree)) to map backwards dependencies.
