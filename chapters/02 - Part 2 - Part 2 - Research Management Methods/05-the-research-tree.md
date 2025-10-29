@@ -45,6 +45,8 @@ Until you answer this, you don't know which approaches make sense. Let's draw th
       Where is the bottleneck?
 ```
 
+You can use a simple pen and paper, a whiteboard, or a digital tool to draw this out. When creating your very first tree, I highly recommend doing it by hand - the physical act of drawing will help you feel comfortable with the process.
+
 Now, how can you answer this question? What approaches might tell you where the bottleneck is?
 
 You might identify:
@@ -65,6 +67,8 @@ Let's add these as branches:
    Profile  Logging  DB Analysis
     (Yellow) (Yellow) (Yellow)
 ```
+
+(Note: the Yellow status means "uncertain, needs investigation" - more on this later.)
 
 Each approach is an investigation you could run to answer the question.
 
@@ -112,7 +116,7 @@ What do you need to set up or change?
 
 **3. Which answers the most questions?**
 
-Some approaches answer not just your immediate question, but related questions too.
+Some approaches answer not just your immediate question, but related questions, too.
 
 - Profile: Shows you CPU, memory, database, network - a complete picture.
 - Logging: Only shows what you logged.
@@ -171,9 +175,9 @@ When approaches seem equal, ask: "Which one am I more familiar with?" or "Which 
 
 The worst decision is no decision.
 
-In general, this approach might feel like an over-kill. Should you really sketch out trees and compare branches before actually doing something?
+In general, this approach might feel like over-kill. Should you really sketch out trees and compare branches before actually doing something?
 
-The surprising answer is that while almost always it feels like an over-kill - almost every single time, it turns out to be worth it. Try it a few times and you will see for yourself.
+The surprising answer is that while almost always it feels like over-kill - almost every single time, it turns out to be worth it. Try it a few times and you will see for yourself.
 
 ### Heuristics Can Be Combined
 
@@ -297,7 +301,7 @@ Joins  Eager Loader       Requests  API
 
 ### Color-Coding Status
 
-Mark both questions and approaches with status:
+When you're constructing your tree, you'll mark both questions and approaches with a particular status:
 
 **For Questions:**
 - **Open**: Not yet answered
@@ -310,7 +314,7 @@ Mark both questions and approaches with status:
 - **Red**: Dead end or not viable
 
 In our example above:
-- "Rewrite with Joins" is Green because we've identified it addresses the specific N+1 problem and the team is confident in implementing it.
+- "Rewrite with Joins" is Green because we've identified that it addresses the specific N+1 problem and the team is confident in implementing it.
 - "Redesign API" is Red because it would take too long for this project.
 - Other approaches are Yellow because we haven't investigated them yet.
 
@@ -325,7 +329,7 @@ Without a tree, people implement the first approach they think of. The tree forc
 People lock onto one approach without considering alternatives. The tree makes alternatives visible and helps you choose the best starting point.
 
 **3. Inefficient Learning**
-Teams try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
+Teams might try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
 
 **4. Answering Questions You Don't Need To**
 Teams waste time investigating interesting but irrelevant questions. The tree shows how questions connect - you only need to answer questions that lead to your goal.
@@ -370,7 +374,7 @@ Research Trees become even more powerful when shared with a team. It actually pr
 - Update the tree as you learn.
 - When stuck, revisit the tree to identify alternative approaches.
 - When an approach fails, mark it Red and move to the next best option.
-- Regular tree reviews (weekly or bi-weekly).
+- Conduct regular tree reviews (weekly or bi-weekly).
 
 ### Template and Tools
 
@@ -407,7 +411,7 @@ Answer         Answer
 
 **Key elements:**
 - Start with your goal at the root.
-- First question branches from the goal.
+- The first question branches from the goal.
 - Approaches to answer that question branch from it.
 - Evaluate each approach (feedback speed, cost, coverage).
 - Mark your best starting point.
@@ -419,7 +423,7 @@ Answer         Answer
 - Pen and paper (seriously, this works great).
 - Whiteboard (for team sessions).
 - Miro, Mural, or similar digital whiteboards.
-- Mind mapping software (XMind, MindNode, etc.).
+- Mind mapping software (XMind, MindNode, and so on).
 - Even a simple text file with indentation.
 
 The tool doesn't matter. What matters is that the tree exists, is visible, and gets updated.
@@ -428,7 +432,7 @@ The tool doesn't matter. What matters is that the tree exists, is visible, and g
 
 **Start with the most important question**
 
-Don't try to list all possible questions upfront. Start with the one question that, if answered, would most clarify your path forward. Answer it, then see what new questions emerge. More on finding the questions to start from - in [chapter 7](#drawing-backwards).
+Don't try to list all possible questions upfront. Start with the one question that, if answered, would most clarify your path forward. Answer it, then see what new questions emerge. More on finding the questions to start from in [chapter 7](#drawing-backwards).
 
 **Show how answers lead to new questions**
 

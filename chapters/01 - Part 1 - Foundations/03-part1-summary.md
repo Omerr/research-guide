@@ -13,4 +13,4 @@
 
 **You need different tools** to manage Research versus Development - in order to make sure Research is done effectively. Part 2 provides those tools.
 
-Part 3 will focus on connection Research to product impact.
+Part 3 will focus on connecting Research to product impact.

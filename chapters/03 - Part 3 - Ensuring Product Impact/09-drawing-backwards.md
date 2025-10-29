@@ -19,8 +19,6 @@ The rules are simple:
 
 Take a moment: If you go first, how would you play to guarantee a win?
 
----
-
 Most people start thinking from the current position (spot 41) and try to calculate forward: "If I move 3 spaces, they can move 2, then I can move 4..." This quickly becomes overwhelming - too many possible moves to track.
 
 But if you **work backwards**, the solution becomes clear:
@@ -52,7 +50,7 @@ But if you **work backwards**, the solution becomes clear:
 
 Notice what happened: By working backwards from the goal, you discovered the systematic solution. Working forward from the start position would have been much, much harder.
 
-### Applying Drawing Backwards to Research
+### How to Apply Drawing Backwards to Research
 
 Let's connect this to Product-led Research. When you face a complex Research challenge, the question isn't "What technical problem should I solve first?" but rather:
 
@@ -83,7 +81,7 @@ THEN <Action>
 ELSE <Action>
 ```
 
-Our goal was to extract all business rules from a COBOL codebase. While challenging in any codebase, it's particularly acute in legacy COBOL code. (If interested in the technical details, see [this post](https://swimm.io/blog/blackbox-to-blueprint-extracting-business-logic-from-cobol-applications).) For this book, it's sufficient to know that many research attempts over the last few decades have tried different approaches to face this challenge.
+Our goal was to extract all business rules from a COBOL codebase. While challenging in any codebase, it's particularly acute in legacy COBOL code. (If you're interested in the technical details, see [this post](https://swimm.io/blog/blackbox-to-blueprint-extracting-business-logic-from-cobol-applications).) For this book, it's sufficient to know that many research attempts over the last few decades have tried different approaches to face this challenge.
 
 #### Where Do You Even Start?
 
@@ -127,7 +125,7 @@ We deliberately **refrained from solving hard technological challenges** before 
 
 The manual documents also gave us something crucial: a concrete example to analyze backwards.
 
-For instance, we saw our documents listed many conditions. This made us realize we would (most probably) need to:
+For instance, we saw that our documents listed many conditions. This made us realize we would (most probably) need to:
 
 1. **Find conditions** in the code.
 2. **Filter out business-related conditions** (vs. technical conditions).
@@ -135,7 +133,7 @@ For instance, we saw our documents listed many conditions. This made us realize 
 
 **Here's where drawing backwards becomes powerful:** We tackled (3) before (2), and (2) before (1).
 
-Why? Because we need to solve (3) to reach our goal - creating impactful documents.
+Why? Because we needed to solve (3) to reach our goal - creating impactful documents.
 
 This means we **mocked the first two steps** - we assumed we already had a way to find conditions and filter business-related ones. So we already had our list of business conditions, and now the challenge was: for each condition, explain it clearly in the output document.
 
@@ -186,10 +184,9 @@ Drawing backwards integrates naturally with the Research Tree from [chapter 4](#
 1. Start by defining what successful output looks like (often manually or semi-manually).
 2. Validate the output with stakeholders before technical work.
 3. Work backwards through dependencies, solving them in reverse order.
-4. Validate each step contributes to the goal before major investment.
+4. Validate that each step contributes to the goal before major investment.
 
-This heuristics ensures Research connects to product impact, since you start with the product goal. It
-provides systematic progress even when problems seem overwhelming, and it validates each step before you invest heavily.
+This heuristic ensures that Research connects to product impact, since you start with the product goal. It provides systematic progress even when problems seem overwhelming, and makes you validate each step before you invest heavily.
 
 **Integration with other tools:**
 - Use with Research Tree ([chapter 4](#the-research-tree)) to map backwards dependencies.

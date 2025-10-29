@@ -79,16 +79,16 @@ The outline serves as your map - it shows you where you are and what you're buil
 
 Your goal: make the process work end-to-end. Start with input (a COBOL program), reach the output (a document with business rules), while passing through the intermediate stages.
 
-But that's a LOT to solve! Don't you need to complete the whole research to achieve this?
+This sounds like too much. Don't you need to complete the whole research to achieve this?
 
-**Definitely not.** The trick is to find the easiest way to get end-to-end by taking shortcuts and making assumptions that are definitely too generous for production.
+**Definitely not.** The trick is to find the easiest way to get end-to-end by taking shortcuts and making assumptions that are definitely too generous for production. You should fight your inner engineer who wants to "do it right" from the start. Your goal is to get an end-to-end process working, as this heuristic is far more valuable than perfecting one step.
 
-**Unless something is already automated, complete it manually.**
+This means that some of the steps can be completed manually, or with very simple implementations that you know won't work in production. Remember it is an intermediate milestone, not the final product.
 
 For our COBOL example:
-- Start with a single, known COBOL program
-- **Skip parsing** - just manually write a list of conditions for the next stage
-- The filtering function returns `true` if business-related, `false` otherwise
+- Start with a single, known COBOL program.
+- **Skip parsing** - just manually write a list of conditions for the next stage.
+- The filtering function returns `true` if business-related, `false` otherwise.
   - First implementation: a simple mapping between input conditions (that you know of) and whether to return `true` or `false`.
   - Alternative: always return `true` - yes, you'll get non-relevant rules, but that's a problem for *later*.
 - The document generation might also be manual for the first pass.
