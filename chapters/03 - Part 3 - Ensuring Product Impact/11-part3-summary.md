@@ -24,7 +24,7 @@ Run focused pre-research checks to answer these questions. Only pursue Research 
 
 **Stage 2: Start from product value and work backwards** ([chapter 7](#drawing-backwards))
 
-Once you've chosen what to research, the drawing backwards heuristics ensure that you start right. Instead of diving into technical challenges, start from the end:
+Once you've chosen what to research, the drawing backwards heuristic ensures that you start right. Instead of diving into technical challenges, start from the end:
 
 1. **Manually create the desired output** - What should successful Research produce? Create it by hand before solving any technical problems.
 2. **Validate with stakeholders or customers** - Show them the output and confirm it solves their problem.
