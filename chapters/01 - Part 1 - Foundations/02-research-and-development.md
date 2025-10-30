@@ -8,11 +8,8 @@ Some claim every development task involves "research" - you have to test your co
 
 Let's be precise.
 
-### Using Schoenfeld's Framework to Distinguish
-
-Schoenfeld defined problem solving as "applying knowledge to overcome obstacles and reach a goal **where a direct solution path is not immediately obvious to the solver.**"
-
-As a reminder from [chapter 1](#what-is-research), applying this to software:
+### Defining Research vs. Development
+As a reminder from [chapter 1](#what-is-research),
 
 **Research** involves fundamental uncertainty:
 
