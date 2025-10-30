@@ -102,7 +102,7 @@ If you liked this book, please share it with more people.
 
 I am extremely lucky to have such wonderful people supporting me in this journey.
 
-Abbey Rennemeyer has been a wonderful editor. Abbey had edited my posts for freeCodeCamp in the last few years, as well as my previous book Gitting Things Done, so I knew she was the perfect fit for this book as well. Her insights both on the content and the writing style have greatly improved this book.
+Abbey Rennemeyer has been a wonderful editor. Abbey had edited my posts for freeCodeCamp over the past few years, as well as my previous book Gitting Things Done, so I knew she was the perfect fit for this book as well. Her insights both on the content and the writing style have greatly improved this book.
 
 Quincy Larson founded the amazing community at freeCodeCamp. I thank him for starting this incredible community, his ongoing support, and for his friendship.
 
