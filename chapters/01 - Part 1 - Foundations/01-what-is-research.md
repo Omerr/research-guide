@@ -16,6 +16,8 @@ Now consider this: Your team needs to automatically extract business rules from 
 
 The distinction isn't about difficulty or technical sophistication. It's about **uncertainty of approach**.
 
+Throughout this book, I will adopt the following definition: Research is confronting problems where you don't know if solutions exist or which approaches will work.
+
 **Research** confronts problems where:
 
 - You don't know if a solution exists.
