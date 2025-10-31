@@ -58,7 +58,7 @@ For our COBOL business rule extraction case: "Start by manually extracting rules
 
 Recognizing when your current strategy isn't working. Deciding when to pivot to a different approach. Managing your time and resources effectively.
 
-This is what separates experienced researchers from novices - it's not just what you know, but when and how you use it.
+This is what separates experienced researchers from novices - it's not just what you know, and the heuristics that you may deploy, but when and how you use them. If you choose one approach, reflect on its effectiveness, and decide to try something different when needed, that's an example of control.
 
 **4. Beliefs and Attitudes** — Your mindset toward the problem
 
