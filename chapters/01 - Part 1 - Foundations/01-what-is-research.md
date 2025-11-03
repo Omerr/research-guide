@@ -18,6 +18,8 @@ The distinction isn't about difficulty or technical sophistication. It's about *
 
 Throughout this book, I will adopt the following definition: Research is confronting problems where you don't know if solutions exist or which approaches will work.
 
+![Research definition](images/chapter01/research_definition.png)
+
 **Research** confronts problems where:
 
 - You don't know if a solution exists.
@@ -30,6 +32,8 @@ Throughout this book, I will adopt the following definition: Research is confron
 - Applying known techniques to build specific features.
 - Following established approaches, even if complex.
 - Clear success criteria tied to working software.
+
+![Research vs Development](images/chapter01/research_vs_development.png)
 
 I've found Alan Schoenfeld's model of problem solving [1] to be a useful framework for defining and analyzing research. Schoenfeld, studying how people solve mathematical problems, identified four** components that determine success when facing genuinely uncertain problems. His framework applies directly to software Research:
 
@@ -69,6 +73,8 @@ Schoenfeld found that successful problem solvers held certain beliefs that helpe
 - "I should write things down and work systematically" vs. "I should solve this in my head".
 
 These beliefs profoundly affect your ability to persist and succeed.
+
+![Schoenfeld's Framework](images/chapter01/components_of_problem_solving.png)
 
 ### Why This Matters for R&D Leaders
 
