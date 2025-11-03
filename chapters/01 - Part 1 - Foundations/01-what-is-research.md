@@ -56,7 +56,7 @@ We will cover heuristics in much more detail later. For now, here are some examp
 - "Try a simpler version first".
 - "List all assumptions and test each one".
 
-For our COBOL business rule extraction case: "Start by manually extracting rules from one small program to understand what 'success' looks like"
+For our COBOL business rule extraction case: "Start by manually extracting rules from one small program to understand what 'success' looks like".
 
 **3. Control** — Monitoring and adjusting your approach
 
