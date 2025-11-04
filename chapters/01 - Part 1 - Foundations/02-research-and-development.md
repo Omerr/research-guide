@@ -28,7 +28,7 @@ As a reminder from [chapter 1](#what-is-research),
 
 ### A Quick Test
 
-You're asked to reverse-engineer a specific compiled function - disassemble it and provide the C equivalent. You know assembly, you know C, you have a disassembler. Is this Research?
+You're asked to reverse-engineer a specific compiled function - disassemble it and provide the equivalent code in C language. You know assembly, you know C, you have a disassembler. Is this Research?
 
 **No.** You know how to proceed. It might take three days of careful work, especially if the function is complex, but it's not Research. You're applying known techniques.
 
