@@ -89,7 +89,7 @@ The issue isn't (necessarily) capability. It's that Research requires different 
 
 **The good news**: All four components can be improved. People get better at Research through practice, exposure to effective heuristics, and environments that support good Control and healthy Beliefs.
 
-The rest of this book provides concrete tools, like using a Research Tree, structured brainstorming, and time-boxing methods, that put Schoenfeld's framework into action in a Product-led environment. These tools help you and your team apply better heuristics, maintain effective control, and build the beliefs that sustain successful Research.
+The rest of this book provides concrete tools, like using a Research Tree, drawing backwards, and time-boxing methods, that put Schoenfeld's framework into action in a Product-led environment. These tools help you and your team apply better heuristics, maintain effective control, and build the beliefs that sustain successful Research.
 
 But first, let's make sure we're clear on when you actually need these tools. [The next chapter](#Research-and-development) dives deeper into distinguishing Research from Development work.
 
