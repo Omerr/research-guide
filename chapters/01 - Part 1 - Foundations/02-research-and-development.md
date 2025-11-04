@@ -24,6 +24,8 @@ As a reminder from [chapter 1](#what-is-research),
 - Following known approaches, even if complex to implement.
 - Success tied directly to working software with specific capabilities.
 
+![Research vs Development](images/chapter01/research_vs_development.png)
+
 ### A Quick Test
 
 You're asked to reverse-engineer a specific compiled function - disassemble it and provide the C equivalent. You know assembly, you know C, you have a disassembler. Is this Research?
