@@ -30,7 +30,7 @@ As a reminder from [chapter 1](#what-is-research),
 
 You're asked to reverse-engineer a specific compiled function - disassemble it and provide the equivalent code in C language. You know assembly, you know C, you have a disassembler. Is this Research?
 
-**No.** You know how to proceed. It might take three days of careful work, especially if the function is complex, but it's not Research. You're applying known techniques.
+**No.** You know how to proceed. It might take three days of careful work, especially if the function is complex, but it's not Research. You're applying known techniques, and know how to progress to a solution.
 
 But if you need to understand how an entire program operates, and one *possible* approach is reverse engineering its compiled form, and you're not sure if that approach is even feasible time-wise or whether it will yield the insights you need? **That's Research.**
 
