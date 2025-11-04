@@ -60,7 +60,7 @@ Building a distributed system with complex consensus algorithms? Challenging Dev
 
 **Misconception 2: Using Advanced Algorithms = Research**
 
-Implementing machine learning pipelines with random forests or neural networks isn't Research - even though the underlying algorithms are sophisticated. The Research happened when those algorithms were first developed.
+Implementing machine learning pipelines with random forests or neural networks isn't Research - even though the underlying algorithms are sophisticated. The Research happened when those algorithms were first developed. However, if you are using those algorithms when trying to solve a problem where it's unclear if they will work at all, that could be Research.
 
 **Misconception 3: Research Can Be Managed Like Development**
 
