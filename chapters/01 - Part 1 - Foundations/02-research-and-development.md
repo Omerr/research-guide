@@ -48,6 +48,8 @@ Research often means exploring several paths simultaneously, knowing that many w
 
 You may need to invent new methods rather than adapting existing ones. Note: Not all Research creates new techniques, but the possibility exists.
 
+![Research definition](images/chapter01/research_definition.png)
+
 ### Common Misconceptions
 
 **Misconception 1: Technical Complexity = Research**
