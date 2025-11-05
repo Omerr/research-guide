@@ -24,6 +24,12 @@ A team spends weeks diving deep into a complex technical approach, when a simple
 
 This is exactly why you need structured methods for Research management. Without them, even your most talented people will waste time, miss obvious solutions, and burn out trying random approaches.
 
+As a reminder, in [chapter 2](#research-and-development), we discussed your role as a Research leader:
+
+![Your Role as Research Leader](images/chapter02/lead_goals.png)
+
+Focusing on responsibility (2) - the illustration here shows how the same peak can be reached via difficult climbing (reverse engineering) or by using a hot air balloon (reading the Help menu). Part of your job as a Research leader is to help your team find the easiest path to the goal.
+
 ### What This Part Covers
 
 The rest of Part 2 provides concrete tools to prevent these problems. You'll learn:
