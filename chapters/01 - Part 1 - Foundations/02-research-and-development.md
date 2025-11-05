@@ -58,9 +58,15 @@ Many challenging Development tasks involve sophisticated algorithms, large-scale
 
 Building a distributed system with complex consensus algorithms? Challenging Development. Figuring out whether a distributed system *can* meet your latency requirements given your unusual constraints? Might be Research.
 
+Technical complexity is not the same as Research.
+
+![Technical complexity is not the same as Research](images/chapter02/technical_complexity_neq_research.png)
+
 **Misconception 2: Using Advanced Algorithms = Research**
 
 Implementing machine learning pipelines with random forests or neural networks isn't Research - even though the underlying algorithms are sophisticated. The Research happened when those algorithms were first developed. However, if you are using those algorithms when trying to solve a problem where it's unclear if they will work at all, that could be Research.
+
+![Using Advanced Algorithms is not the same as Research](images/chapter02/advanced_algorithms_neq_research.png)
 
 **Misconception 3: Research Can Be Managed Like Development**
 
@@ -71,6 +77,8 @@ Perhaps the most damaging misconception. This leads to:
 - Evaluating Research with Development metrics.
 
 Research requires different approaches. This is exactly what the rest of this book addresses.
+
+![Managing Research is different from Managing Development](images/chapter02/managing_dev_neq_managing_research.png)
 
 **Misconception 4: Research Cannot Be Managed**
 
@@ -84,6 +92,10 @@ Specifically, even the most talented researcher benefits from:
 - Structured approaches to exploring alternatives.
 - Regular checkpoints to assess direction.
 - Team collaboration and brainstorming.
+
+Research is not magic, it *can* be managed effectively.
+
+![Research is not magic, and it can be managed](images/chapter02/research_neq_magic.png)
 
 ### Your Role as Research Leader
 
@@ -113,4 +125,9 @@ This means:
 
 (We'll cover this in detail in [Part 2](#part2-research-management-methods).)
 
+Responsibility (1) is defining the right goals.
+Responsibility (2) is reaching these goals effectively.
+
 The rest of this book provides concrete tools for both responsibilities.
+
+![](images/chapter02/lead_goals.png)
