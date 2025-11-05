@@ -130,4 +130,4 @@ Responsibility (2) is reaching these goals effectively.
 
 The rest of this book provides concrete tools for both responsibilities.
 
-![](images/chapter02/lead_goals.png)
+![Your Role as Research Leader](images/chapter02/lead_goals.png)
