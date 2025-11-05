@@ -14,7 +14,7 @@ At some point we asked them to stop, turn around and look at the instructor. The
 
 The room erupted in nervous laughter. Some students looked embarrassed. Others seemed frustrated. But everyone understood the point.
 
-These were capable people. They had the relevant knowledge base, in Schoenfeld's terms, as presented in [chapter 1](#what-is-research). That is, they had the relevant technical skills — they knew how to use disassemblers, debuggers, and all the sophisticated tools of reverse engineering. Yet they had missed something fundamental: **checking if there was a simpler solution first**.
+These were capable people. They had the relevant knowledge base, in Schoenfeld's terms, as presented in [chapter 1](#what-is-research). That is, they had the relevant technical skills — they knew both assembly and C, they knew how to use disassemblers, debuggers, and all the sophisticated tools of reverse engineering. Yet they had missed something fundamental: **checking if there was a simpler solution first**.
 
 This happens all the time in Research work.
 
