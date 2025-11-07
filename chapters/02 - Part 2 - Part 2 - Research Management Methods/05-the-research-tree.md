@@ -20,7 +20,7 @@ A Research Tree is a living visual representation of your Research journey. It c
 
 Unlike a static plan, the Research Tree grows and changes as you learn (which is one reason I like the name "tree" 😇). You start with what you know, then update it continuously as you investigate. Dead ends get marked. New branches appear. Questions get answered and new questions emerge.
 
-Think of it like this: You're exploring a cave system. You don't have a map - you're *creating* the map as you explore. You mark passages you've tried. You note which ones are dead ends. You write down questions: "Does this passage connect to the main chamber?" "Is there water down this route?" As you explore, you answer some questions and discover new ones you hadn't considered.
+Think of it like this: You're exploring a cave system. You don't have a map - you're *creating* the map as you explore. You mark passages you've tried. You note which ones are dead ends. You write down questions: "Does this passage connect to the main chamber?" "Is there water down this route?" As you explore, you answer some questions and discover new ones you hadn't considered. You write down the answers you found, and the experiments you conducted to find them ("I tried going left, hit a wall after 50 feet").
 
 Research works the same way. The Research Tree is both your map and your log.
 
