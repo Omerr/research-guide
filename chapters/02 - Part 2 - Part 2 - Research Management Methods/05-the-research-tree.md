@@ -100,7 +100,7 @@ How long until you get an answer?
 - Logging: Need to add logging code, deploy, wait for traffic - maybe 4 hours.
 - DB Analysis: Need to enable slow query log, wait for data - maybe 2 hours.
 
-**Fastest feedback wins.** You want to learn quickly. If an approach can give you an answer in 15 minutes versus 4 hours, try the fast one first.
+**Fastest feedback wins.** You want to learn quickly.
 
 **2. Which has the lowest cost?**
 
