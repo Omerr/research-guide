@@ -141,7 +141,7 @@ Update your tree:
     FIRST]   
 ```
 
-This doesn't mean the other approaches are bad. It means that profiling is the best *starting point* given what you know right now.
+This doesn't mean the other approaches are bad, or that this one will necessarily turn out to be the best. It means that profiling is the best *starting point* given what you know right now.
 
 ### What If Your First Choice Doesn't Work?
 
