@@ -10,6 +10,8 @@ The issue isn't persistence. It's that they never mapped out the solution space.
 
 It is a way to visualize and manage the **Control** component of Schoenfeld's framework from [chapter 1](#what-is-research) - monitoring and adjusting your approach. This is where most Research efforts struggle.
 
+![Reminder: Schoenfeld's Framework](images/chapter01/components_of_problem_solving.png)
+
 ### What Is a Research Tree?
 
 A Research Tree is a living visual representation of your Research journey. It captures three things:
@@ -38,12 +40,7 @@ The first question is usually: **Where is the bottleneck?**
 
 Until you answer this, you don't know which approaches make sense. Let's draw this:
 
-```
-    Reduce API Response Time
-              |
-              |
-      Where is the bottleneck?
-```
+![Initial Research Tree](images/chapter04/research_tree_1.png)
 
 You can use a simple pen and paper, a whiteboard, or a digital tool to draw this out. When creating your very first tree, I highly recommend doing it by hand - the physical act of drawing will help you feel comfortable with the process.
 
@@ -56,19 +53,9 @@ You might identify:
 
 Let's add these as branches:
 
-```
-    Reduce API Response Time
-              |
-              |
-      Where is the bottleneck?
-              |
-       _______|________
-      |       |        |
-   Profile  Logging  DB Analysis
-    (Yellow) (Yellow) (Yellow)
-```
+![Research Tree with a few directions](images/chapter04/research_tree_2.png)
 
-(Note: the Yellow status means "uncertain, needs investigation" - more on this later.)
+(Note: the Brown status means "uncertain, needs investigation" - more on this later.)
 
 Each approach is an investigation you could run to answer the question.
 
@@ -84,7 +71,13 @@ By creating this tree, you've avoided that trap. You can see all the approaches 
 
 Remember the reverse engineering students from [chapter 3](#why-methodology-matters)? They never created this tree. They jumped straight to the first approach they knew: disassemblers and debuggers. They didn't stop to think: "What are all the ways we could understand this game's rules?" If they had, they would have listed approaches like: reverse engineer the binary, check the Help menu, just play the game, examine config files, watch network traffic. And if they'd evaluated those approaches using the framework you're about to learn, "check the Help menu" would have scored perfectly: fastest feedback (30 seconds), lowest cost (zero), best coverage (complete rules). Instead, they spent hours on complex reverse engineering when a simple menu click would have worked. Don't be those students.
 
+![A simple tree for the game makes it clear starting with reversing is the wrong option](images/chapter04/research_tree_3.png)
+
 **Now comes the critical question: Which branch do you try first?**
+
+Consider our tree again:
+
+![Research Tree with a few directions](images/chapter04/research_tree_2.png)
 
 ### Choosing Your First Path
 
@@ -124,22 +117,13 @@ Some approaches answer not just your immediate question, but related questions, 
 
 **Broader coverage wins.** A profiler might show you that 70% of time is database queries *and* that 20% is network latency - information you wouldn't get from narrow approaches.
 
+![Prioritizing heuristics framework](images/chapter04/path_priorities.png)
+
 So this is an easy one. **Profiling wins on all three criteria.** That's your first approach to try.
 
 Update your tree:
 
-```
-    Reduce API Response Time
-              |
-              |
-      Where is the bottleneck?
-              |
-       _______|________
-      |       |        |
-   Profile  Logging  DB Analysis
-    [TRY     (Yellow) (Yellow)
-    FIRST]   
-```
+![Start with profiling](images/chapter04/research_tree_4.png)
 
 This doesn't mean the other approaches are bad, or that this one will necessarily turn out to be the best. It means that profiling is the best *starting point* given what you know right now.
 
@@ -149,19 +133,7 @@ Let's say you try profiling and hit a problem: Your profiler can't attach to the
 
 **This is valuable information.** Mark Profile as Red and move to your next best option:
 
-```
-    Reduce API Response Time
-              |
-              |
-      Where is the bottleneck?
-              |
-       _______|________
-      |       |        |
-   Profile  Logging  DB Analysis
-    (Red:    [TRY    (Yellow)
-   Can't run SECOND]
-   in prod)   
-```
+![Profiling failed, pivot to logging](images/chapter04/research_tree_5.png)
 
 Now you try Logging. But notice: You didn't waste days trying Profile in production. You tried it, hit a blocker, immediately pivoted to Logging. The tree helped you move quickly.
 
@@ -185,35 +157,15 @@ Sometimes you don't have to choose just one. You might run Profile *and* enable 
 
 But be careful: Don't try to do everything at once. Start with your best option. If that doesn't fully answer your question, then add another approach.
 
-```
-    Where is the bottleneck?
-              |
-       _______|________
-      |       |        |
-   Profile  Logging  DB Analysis
-  (Trying   (Yellow)  (Trying in
-   first)             parallel)
-```
-
 ### How Answers Lead to New Questions
 
 Let's say you choose "Profile" and run it for a day. You discover: **70% of response time is database queries**.
 
+![Database is the bottleneck](images/chapter04/research_tree_6.png)
+
 This answer eliminates the need for other approaches (you don't need logging now - you found the answer). But more importantly, it reveals new questions:
 
-```
-    Reduce API Response Time
-              |
-              |
-      Where is the bottleneck? 
-      CLOSED: Database queries (70%)
-              |
-       _______|________
-      |                |
-Which queries      How many queries
-are slowest?       per request?
-  (Open)              (Open)
-```
+![New questions emerge](images/chapter04/research_tree_7.png)
 
 See how the tree grows? One answered question spawns two new questions. Each of these new questions will have its own approaches for answering them.
 
@@ -221,19 +173,9 @@ And you'll apply the same framework to choose which question to answer first: Wh
 
 Let's expand "Which queries are slowest?":
 
-```
-    Which queries are slowest?
-              |
-       _______|________
-      |       |        |
-   Enable  Query    Sample
-   Slow    Profiler Production
-   Query              Traffic
-   Log
- (Yellow)  (Yellow)   (Yellow)
-```
+![Research tree expanding](images/chapter04/research_tree_8.png)
 
-Again, you'd evaluate: Which approach gives fastest feedback? Enable Slow Query Log is probably fastest - you just flip a config flag and wait a few minutes.
+Again, you'd evaluate: Which approach gives fastest feedback? Enabling slow query log is probably fastest - you just flip a config flag and wait a few minutes.
 
 You decide to enable the slow query log. After investigating, you discover: **User profile queries are slowest - they make 15 separate database calls (N+1 problem)**.
 
@@ -241,56 +183,22 @@ You decide to enable the slow query log. After investigating, you discover: **Us
 
 This answer leads to a new question:
 
-```
-    Which queries are slowest?
-    CLOSED: User profile queries (N+1 - 15 calls)
-              |
-              |
-    How can we fix the N+1 problem?
-              |
-       _______|________
-      |       |        |
-   Rewrite  Add      Use
-   with     Eager    DataLoader
-   Joins    Loading  Pattern
- (Yellow)  (Yellow)   (Yellow)
-```
+![New question about fixing N+1](images/chapter04/research_tree_9.png)
 
 Now you have three solution approaches. Again, evaluate them:
-- Rewrite with Joins: Fast to implement, proven pattern.
+- Rewrite queries with JOINs: Fast to implement, proven pattern.
 - Add Eager Loading: Depends on your ORM, might be quick.
 - DataLoader Pattern: Requires learning new pattern, takes longer.
 
-Rewrite with Joins probably gives the fastest feedback if your team knows SQL well.
+Rewrite queries with JOINs probably gives the fastest feedback if your team knows SQL well.
 
 ### The Complete Picture
 
 Let's see how the full tree looks after a few days of investigation:
 
-```
-    Reduce API Response Time (800ms → 100ms)
-              |
-              |
-      Where is the bottleneck?
-      CLOSED: Database queries (70% of time)
-              |
-       _______|_________________
-      |                         |
-Which queries are          How many queries
-slowest?                   per request?
-CLOSED: User profiles      CLOSED: 15-20 queries
-(N+1 - 15 calls)           |
-      |                    |
-      |                    Can we reduce
-How can we fix             query count?
-the N+1 problem?           (Open)
-      |                         |
-   ___|___                   ___|___
-  |   |   |                 |       |
-Rewrite Add  Data         Batch   Redesign
-Joins  Eager Loader       Requests  API
-(Green)(Yellow)(Yellow)   (Yellow)  (Red)
-```
+![Completed research tree example](images/chapter04/research_tree_complete.png)
+
+(Note: for the "How many queries per request?" node - I skipped the approaches for brevity.)
 
 **Reading this tree:**
 
@@ -298,27 +206,27 @@ Joins  Eager Loader       Requests  API
 2. That answer led to two new questions about specific queries.
 3. For "Which queries are slowest?", we chose slow query log (fastest to enable).
 4. Answering it led to another question about fixing the N+1 problem.
-5. For "How can we fix N+1?", we evaluated the approaches and chose "Rewrite with Joins" (team knows SQL, fastest to implement).
+5. For "How can we fix N+1?", we evaluated the approaches and chose "Rewrite queries with JOINs" (team knows SQL, fastest to implement).
 6. Meanwhile, "Can we reduce query count?" is still open and has its own approaches to investigate.
 
 ### Color-Coding Status
 
-When you're creating your Research Tree, you'll mark both questions and approaches with a particular status:
+When you're creating your Research Tree, you'll mark both questions and approaches with a particular status. Of course, the following specific colors are just suggestions - the important thing is to keep something consistently so you can quickly see the status at a glance.
 
 **For Questions:**
-- **Open**: Not yet answered
-- **Closed**: Answered (show the answer)
-- **Blocking**: Must answer before proceeding with an approach
+- **Open**: Not yet answered.
+- **Closed**: Answered (show the answer).
+- **Blocking**: Must answer before proceeding with an approach.
 
 **For Approaches:**
-- **Green**: Viable, worth pursuing
-- **Yellow**: Uncertain, needs investigation  
-- **Red**: Dead end or not viable
+- **Green**: Viable, worth pursuing.
+- **Brown**: Uncertain, needs investigation.
+- **Red**: Dead end or not viable.
 
 In our example above:
 - "Rewrite with Joins" is Green because we've identified that it addresses the specific N+1 problem and that the team is confident in implementing it.
 - "Redesign API" is Red because it would take too long for this project.
-- Other approaches are Yellow because we haven't investigated them yet.
+- Other approaches are Brown because we haven't investigated them yet.
 
 ### The Research Tree Prevents Common Pitfalls
 
@@ -421,7 +329,7 @@ The Research Tree is a living visual framework that:
 - Helps you choose the best starting point for each question.
 - Prevents jumping on the first idea without considering alternatives.
 - Captures how answers lead to new questions.
-- Tracks status of questions (open/closed/blocking) and approaches (green/yellow/red).
+- Tracks status of questions (open/closed/blocking) and approaches (green/brown/red).
 - Documents the investigation path so the team understands why decisions were made.
 - Evolves as you learn - questions get answered, new questions emerge.
 
