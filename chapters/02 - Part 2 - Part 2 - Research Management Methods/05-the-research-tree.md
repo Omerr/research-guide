@@ -379,8 +379,10 @@ Research Trees become even more powerful when shared with a team. It actually pr
 **During Execution:**
 - Update the tree as you learn.
 - When stuck, revisit the tree to identify alternative approaches.
-- When an approach fails, mark it Red and move to the next best option.
+- Make sure you consider whether you are asking all of the important questions, and whether you are considering all relevant approaches.
 - Conduct regular tree reviews (weekly or bi-weekly).
+
+Note that the Research Tree is also useful for one on one sessions - you can review the tree with individual team members to understand their progress and help them choose next steps. It actually makes the Control component of Schoenfeld's framework much easier to manage - as you see the variolus questions and approaches laid out visually.
 
 ### Template and Tools
 
