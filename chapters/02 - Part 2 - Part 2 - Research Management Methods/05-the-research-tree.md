@@ -360,6 +360,10 @@ I'll wait.
 
 ...
 
+Don't worry about me, I'm enjoying some really great coffee in the meanwhile.
+
+...
+
 Done? Good. You now have your first Research Tree with a clear starting point.
 
 ### Using the Tree with Your Team
