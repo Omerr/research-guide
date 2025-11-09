@@ -237,6 +237,8 @@ Again, you'd evaluate: Which approach gives fastest feedback? Enable Slow Query 
 
 You decide to enable the slow query log. After investigating, you discover: **User profile queries are slowest - they make 15 separate database calls (N+1 problem)**.
 
+(What is the N+1 problem in this context? It means that when fetching user profiles, the code first queries for a list of users (1 query), then for each user, it makes an additional query to fetch related data (N queries). If there are 15 users, that's 16 queries total. This is inefficient and slows down response time.)
+
 This answer leads to a new question:
 
 ```
