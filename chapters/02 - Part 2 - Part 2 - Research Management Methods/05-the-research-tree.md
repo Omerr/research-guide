@@ -384,50 +384,8 @@ Research Trees become even more powerful when shared with a team. It actually pr
 
 Note that the Research Tree is also useful for one on one sessions - you can review the tree with individual team members to understand their progress and help them choose next steps. It actually makes the Control component of Schoenfeld's framework much easier to manage - as you see the variolus questions and approaches laid out visually.
 
-### Template and Tools
+### Tools
 
-Here's a simple template to start with:
-
-```
-                    [GOAL]
-                       |
-                       |
-                [First Question?]
-                   (Status)
-                       |
-            ___________|___________
-           |           |           |
-      [Approach A] [Approach B] [Approach C]
-       (Status)     (Status)     (Status)
-      [Evaluate:   [Evaluate:   [Evaluate:
-       Fast/Cheap] Slow/Exp]    Med/Med]
-           
-    
-    [First Question?]
-    CLOSED: [Answer]
-           |
-    _______|________
-   |                |
-[Question 2?]  [Question 3?]
-arising from   arising from
-Answer         Answer
-   |               |
- Approaches    Approaches
- to answer     to answer
-   Q2            Q3
-```
-
-**Key elements:**
-- Start with your goal at the root.
-- The first question branches from the goal.
-- Approaches to answer that question branch from it.
-- Evaluate each approach (feedback speed, cost, coverage).
-- Mark your best starting point.
-- When you answer a question, new questions branch from the answer.
-- Mark questions as Open/Closed/Blocking.
-- Mark approaches as Green/Yellow/Red.
-
-**Tools you can use:**
 - Pen and paper (seriously, this works great).
 - Whiteboard (for team sessions).
 - Miro, Mural, or similar digital whiteboards.
