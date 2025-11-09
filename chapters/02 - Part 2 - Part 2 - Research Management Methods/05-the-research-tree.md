@@ -320,7 +320,7 @@ In our example above:
 - "Redesign API" is Red because it would take too long for this project.
 - Other approaches are Yellow because we haven't investigated them yet.
 
-### Why This Works
+### The Research Tree Prevents Common Pitfalls
 
 The Research Tree with this decision-making framework addresses five critical failure modes:
 
@@ -352,7 +352,7 @@ Now answer these questions:
    - How fast is the feedback?
    - What's the cost?
    - How much does it answer?
-5. Which approach scores best? Mark it "TRY FIRST"
+5. Which approach scores best? Mark it "TRY FIRST".
 
 Actually do this. Don't just read and think "I understand." Drawing the tree and evaluating approaches forces you to be explicit, and you'll immediately see gaps in your thinking.
 
