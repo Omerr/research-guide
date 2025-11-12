@@ -244,6 +244,8 @@ Teams might try expensive, slow approaches first when faster, cheaper ones exist
 **4. Answering Questions You Don't Need To**
 Teams waste time investigating interesting but irrelevant questions. The tree shows how questions connect - you only need to answer questions that lead to your goal.
 
+![The Research Tree prevents common pitfalls](images/chapter04/pitfalls_mitigations.png)
+
 ### Time to Practice
 
 Open your favorite drawing tool - or just grab a piece of paper. Think of a Research problem you're currently facing or recently faced.
