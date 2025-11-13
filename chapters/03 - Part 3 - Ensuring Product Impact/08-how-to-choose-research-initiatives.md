@@ -47,7 +47,7 @@ While many good ideas come from technological opportunities, it's important to r
 | **Risk Level** | Lower - you know there's demand if you succeed | Higher - solution might not match any important problem |
 | **Validation** | Problem already validated through user feedback | Needs validation that the solution matters to users |
 | **Examples** | Swimm's auto-updating docs; Reducing false positives in medical diagnosis | "How can we use LLMs in our product?"; "This new parsing technique could enable..." |
-| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve it? |
+| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve the problem? |
 
 Problem-driven research starts with validated demand. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
 
