@@ -13,7 +13,7 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
-The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding research that won't impact the product.
+The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding Research that won't impact the product.
 
 Research initiatives can start from two different places:
 
@@ -36,7 +36,7 @@ When generative AI became popular, many companies started exploring how to lever
 
 The same can happen with smaller, more specific technologies, and not necessarily new technologies - sometimes technologies that the relevant teams just familiarized themselves with. For example, if a researcher reads a paper about a new way to parse source code, that researcher might have an idea for a new product feature that can leverage this technology.
 
-While many good ideas come from technological opportunities, it's important to remember that the real impact of research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. In that case, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
+While many good ideas come from technological opportunities, it's important to remember that the real impact of Research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. If you do start a Research based on a technological opportunity, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
 
 ### Problem-Driven vs. Opportunity-Driven: A Comparison
 
