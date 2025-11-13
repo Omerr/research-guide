@@ -10,7 +10,6 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 - First, choose research that matters ([chapter 6](#how-to-choose-research-initiatives)).
 - Then, work backwards from product value ([chapter 7](#drawing-backwards)).
 - Continuously validate with end-to-end iterations ([chapter 8](#end-to-end)).
-- Finally, see how everything integrates ([chapter 9](#integration)).
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
