@@ -26,4 +26,6 @@ When consulting the research tree ([chapter 4](#the-research-tree)), and decidin
 3. In case it's a few days - define a time box of 2-5 days, depending on the estimation. I usually time-box for a bit less than the expected time - for example, if I estimate 4 days, I may time-box for 3 days. The goal is to stop and reconsider given the additional information you have at that point, not to pressure you to finish the task.
 4. In case it's longer than a week - define a time box of one week. I don't see any case where *not* stopping to consider after a week is desirable.
 
+![Time box based on your initial estimate](images/chapter05/estimate_to_time_box.png)
+
 Don't overthink time-boxing, especially not the exact time limits. The goal is to create natural stopping points to reconsider your research directions.
