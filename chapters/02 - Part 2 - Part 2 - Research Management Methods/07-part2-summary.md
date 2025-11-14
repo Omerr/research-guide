@@ -10,12 +10,14 @@ In [chapter 2](#research-and-development), I argued that your role as a Research
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
+![Your Role as Research Leader](images/chapter02/lead_goals.png)
+
 This part handled the latter part of your role - how to ensure Research is done effectively.
 
 Within this part, your role is to:
 1. Ensure the team uses these methods consistently.
 2. Help identify when to pivot, when to persist, and which questions matter.
 
-**These tools prevent common failure modes**: jumping on the first idea, tunnel vision, inefficient learning, and lost context.
+**These tools prevent common failure modes**: jumping on the first idea, tunnel vision, inefficient learning, and wasting time answering irrelevant questions.
 
 Part 3 shows how to connect Research to product impact.

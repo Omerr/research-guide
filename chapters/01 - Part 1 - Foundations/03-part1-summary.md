@@ -2,10 +2,10 @@
 ## Part 1 - Summary{#part1-summary}
 
 **Research** is work where the path to success is not immediately obvious. It requires:
-- Knowledge of relevant domains
-- Effective problem-solving strategies (heuristics)  
-- Monitoring and adjusting approaches (control)
-- Healthy beliefs and persistence
+- Knowledge of relevant domains.
+- Effective problem-solving strategies (heuristics)  .
+- Monitoring and adjusting approaches (control).
+- Healthy beliefs and persistence.
 
 **Your role** as a Research leader is to:
 1. Ensure Research connects to product impact.

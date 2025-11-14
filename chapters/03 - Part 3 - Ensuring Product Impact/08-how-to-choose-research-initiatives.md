@@ -10,11 +10,10 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 - First, choose research that matters ([chapter 6](#how-to-choose-research-initiatives)).
 - Then, work backwards from product value ([chapter 7](#drawing-backwards)).
 - Continuously validate with end-to-end iterations ([chapter 8](#end-to-end)).
-- Finally, see how everything integrates ([chapter 9](#integration)).
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
-The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding research that won't impact the product.
+The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding Research that won't impact the product.
 
 Research initiatives can start from two different places:
 
@@ -37,7 +36,7 @@ When generative AI became popular, many companies started exploring how to lever
 
 The same can happen with smaller, more specific technologies, and not necessarily new technologies - sometimes technologies that the relevant teams just familiarized themselves with. For example, if a researcher reads a paper about a new way to parse source code, that researcher might have an idea for a new product feature that can leverage this technology.
 
-While many good ideas come from technological opportunities, it's important to remember that the real impact of research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. In that case, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
+While many good ideas come from technological opportunities, it's important to remember that the real impact of Research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. If you do start a Research based on a technological opportunity, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
 
 ### Problem-Driven vs. Opportunity-Driven: A Comparison
 
@@ -48,7 +47,7 @@ While many good ideas come from technological opportunities, it's important to r
 | **Risk Level** | Lower - you know there's demand if you succeed | Higher - solution might not match any important problem |
 | **Validation** | Problem already validated through user feedback | Needs validation that the solution matters to users |
 | **Examples** | Swimm's auto-updating docs; Reducing false positives in medical diagnosis | "How can we use LLMs in our product?"; "This new parsing technique could enable..." |
-| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve it? |
+| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve the problem? |
 
 Problem-driven research starts with validated demand. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
 
