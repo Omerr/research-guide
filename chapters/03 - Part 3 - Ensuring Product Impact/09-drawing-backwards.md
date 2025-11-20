@@ -2,7 +2,9 @@
 
 ## Chapter 7 - Drawing Backwards {#drawing-backwards}
 
-When facing a complex Research problem, where do you start? Most teams dive into technical challenges: parsing COBOL, building callgraphs, implementing algorithms. But there's a more powerful approach that ensures your Research actually impacts the product: **start from the end and work backwards**.
+So you've chosen a research initiative, and done so correctly (following [chapter 6](#how-to-choose-research-initiatives)). Now, how do you start working on it?
+
+Most teams start by diving into technical challenges: parsing COBOL, building callgraphs, implementing algorithms. But there's a more powerful approach that ensures your Research actually impacts the product: **start from the end and work backwards**.
 
 This heuristic - working backwards from your goal - is one of the most valuable problem-solving strategies you can use. Let me show you why with a simple game.
 
