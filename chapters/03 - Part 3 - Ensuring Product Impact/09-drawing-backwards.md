@@ -96,6 +96,8 @@ Faced with this problem, you might think:
 
 Each of these might require its own research effort. Where do you start?
 
+![Where do you start?](images/chapter07/where_to_start.png)
+
 #### Drawing Backwards: Start with the End Result
 
 Drawing backwards made us ask:
