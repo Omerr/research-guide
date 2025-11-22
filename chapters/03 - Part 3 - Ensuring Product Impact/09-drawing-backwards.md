@@ -12,33 +12,53 @@ This heuristic - working backwards from your goal - is one of the most valuable 
 
 Consider this game:
 
-![https://photos.google.com/search/atlanta/photo/AF1QipPIoGfmBHOSGdzd1MtAeSiGF-Wgs2AlHIR8-DAa](IMAGE: A spiral board numbered from 1 to 41, with a duck token on spot 41)
+![A spiral board numbered from 1 to 41, with a pawn on spot 41](images/chapter07/spiral_game_1.png)
 
 The rules are simple:
-- The duck starts on spot 41.
-- On each turn, a player moves the duck backward between 1 to 6 spots. That is, if the duck is on spot 41, you can move it to any spot from 35 to 40.
-- The player who moves the duck to spot 1 wins.
+- The pawn starts on spot 41.
+- On each turn, a player moves the pawn backward between 1 to 6 spots. That is, if the pawn is on spot 41, you can move it to any spot from 35 to 40.
+- The player who moves the pawn to spot 1 wins.
 
 Take a moment: If you go first, how would you play to guarantee a win?
+
+(I do encourage you to take a moment and try this for yourself first.)
+
+\newpage
 
 Most people start thinking from the current position (spot 41) and try to calculate forward: "If I move 3 spaces, they can move 2, then I can move 4..." This quickly becomes overwhelming - too many possible moves to track.
 
 But if you **work backwards**, the solution becomes clear:
 
 **Starting from the end (spot 1):**
-- To win, you need the duck on spot 1 on your turn.
-- Your opponent just moved, so the duck could be on spots 2-7 (since they moved 1-6 backward from wherever it was).
+- To win, you need the pawn on spot 1 on your turn.
+- Your opponent just moved, so the pawn could be on spots 2-7 (since they moved 1-6 backward from wherever it was).
 - For any spot from 2-7, you can move directly to spot 1.
-- **Conclusion**: If the duck is on spots 2-7 at the start of your turn, you win.
+- **Conclusion**: If the pawn is on spots 2-7 at the start of your turn, you win.
+
+![You do *not* want to land on spots 2-7](images/chapter07/spiral_game_2.png)
 
 **Continue working backwards (from spots 2-7):**
-- You want your opponent to *not* be able to land on spots 2-7.
+- You want your opponent to land on spots 2-7.
 - From spot 8, no matter what they do (move 1-6), they land on spots 2-7.
-- **Conclusion**: If you get the duck to spot 8, you guarantee a win.
+- **Conclusion**: If you get the pawn to spot 8, you guarantee a win.
+
+![If you land on spot 8, you win](images/chapter07/spiral_game_3.png)
 
 **Continue working backwards from spot 8:**
+
+Notice, that you've just created a "new" game - you no longer need to land on spot 1 in order to win. It's enough that you land on spot 8 - as from there, you can win no matter what your opponent does.
+
+So, how do you ensure you can land on spot 8?
+
 - Spots 9-14 all allow moving to spot 8.
-- So if your opponent starts their turn with duck on 9-14, you can force it to 8.
+- So if your opponent starts their turn with pawn on a spot between 9-14, you can force it to 8.
+- Which means you do *not* want to land on spots 9-14, but you do want to land on 15 (which will force your opponent, in turn, to land somewhere between 9-14).
+
+![If you land on spot 15, you win](images/chapter07/spiral_game_4.png)
+
+Again, you've just created a "new" game - where your goal is to land on spot 15. From there, you already know how to win.
+
+You can keep going like this, drawing backwards - would you want to land on spot 16 or not? How about 17? Until, at some point...
 
 **The pattern emerges:**
 - Safe spots for you: 1, 8, 15, 22, 29, 36
@@ -51,6 +71,8 @@ But if you **work backwards**, the solution becomes clear:
 - Eventually, you reach spot 1 and win.
 
 Notice what happened: By working backwards from the goal, you discovered the systematic solution. Working forward from the start position would have been much, much harder.
+
+You actually deployed a second, powerful heuristic here - considering specific cases (1, 8, 15, 22, 29, 36) - and generalizing (`1+7n`). This heuristic is also very common in research, though not specifically when aiming to ensure product impact.
 
 ### How to Apply Drawing Backwards to Research
 
