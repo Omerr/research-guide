@@ -65,6 +65,8 @@ You can keep going like this, drawing backwards - would you want to land on spot
 - From any of these, your opponent cannot avoid giving you another safe spot
 - These are all numbers of the form: `1 + 7n`
 
+![The winning pattern](images/chapter07/spiral_game_5.png)
+
 **The winning strategy:**
 - From spot 41, move 5 spots backward to reach spot 36 (a "safe spot").
 - No matter what your opponent does, you can always move to the next "safe spot".
@@ -74,7 +76,7 @@ Notice what happened: By working backwards from the goal, you discovered the sys
 
 You actually deployed a second, powerful heuristic here - considering specific cases (1, 8, 15, 22, 29, 36) - and generalizing (`1+7n`). This heuristic is also very common in research, though not specifically when aiming to ensure product impact.
 
-### How to Apply Drawing Backwards to Research
+### How to Apply Drawing Backwards to Product-led Research
 
 Let's connect this to Product-led Research. When you face a complex Research challenge, the question isn't "What technical problem should I solve first?" but rather:
 
@@ -128,6 +130,8 @@ Drawing backwards made us ask:
 
 When we first asked ourselves this question, we weren't sure. We knew from our clients that they wanted extracted business rules, but we couldn't know what the "ideal" output would look like.
 
+![Start with the end result](images/chapter07/end_result.png)
+
 So we decided, **before tackling any technical challenges**, to manually create documents showing extracted business rules from sample programs. We did this completely manually - no parsing, no algorithms, just understanding COBOL code ourselves and writing documentation.
 
 We did this for various types of applications from different codebases, and learned:
@@ -146,6 +150,8 @@ Once we manually wrote the documents, it was time to verify our hypothesis. With
 2. Reach out to clients - show them the actual output and ask: "Does this solve your problem?"
 
 We deliberately **refrained from solving hard technological challenges** before knowing where we were aiming.
+
+![Hypothesize about your end result](images/chapter07/form_hypothesis.png)
 
 #### Working Backwards Through Sub-Problems
 
