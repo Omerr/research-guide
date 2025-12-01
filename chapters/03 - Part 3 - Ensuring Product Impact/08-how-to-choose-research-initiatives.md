@@ -149,7 +149,7 @@ The next chapters assume you understand the product impact of successful Researc
 2. **Time to Impact**: How long until we see product results?
 3. **Resources**: Do we have the knowledge, capacity, and dependencies?
 
-![Three questions to answer before pursuing Research](images/chapter06/research_initiative_questions).png
+![Three questions to answer before pursuing Research](images/chapter06/research_initiative_questions.png)
 
 **Run pre-research checks** (days, not weeks) to answer these questions if unclear.
 
