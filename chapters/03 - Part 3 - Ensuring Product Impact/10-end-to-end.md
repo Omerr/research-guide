@@ -20,10 +20,12 @@ These two risks are why I advocate for **continuous end-to-end iterations**.
 
 These aren't competing approaches - they're complementary:
 
-| Approach | Purpose | What It Gives You | Strength | Limitation |
+| Heuristic | Purpose | What It Gives You | Strength | Limitation |
 |----------|---------|-------------------|----------|------------|
-| **Drawing Backwards** ([chapter 7](#drawing-backwards)) | Define target and path | 1. Target output<br>2. Hypothesized chain of steps to get there<br>3. Order of dependencies | Ensures product focus; reveals what you need to build | Hypotheses may be wrong; doesn't validate feasibility on real data |
+| **Drawing Backwards** ([chapter 7](#drawing-backwards)) | Define target and path | 1. Target output<br>2. Hypothesized chain of steps to get there<br>3. Order of dependencies | Ensures product focus; reveals what you need to build |    |
 | **End-to-End Iterations** (this chapter) | Validate and build incrementally | 1. Proof the chain works<br>2. Learning from real data<br>3. Prioritized improvements | Validates feasibility; discovers what actually works | Can lose direction without clear target and chain |
+
+![These are complementary heuristics](/images/chapter08/heurstics_comparison.png)
 
 **The recommended flow:**
 1. Use drawing backwards to:
@@ -67,6 +69,8 @@ For the COBOL business rules example: We used drawing backwards to identify that
 
 This is your first draft - the hypothesized process that drawing backwards revealed.
 
+![First end-to-end process draft](/images/chapter08/cobol_steps.png)
+
 **How to outline:**
 - Draw boxes on a whiteboard.
 - Use a flowchart if the process isn't linear.
@@ -92,6 +96,8 @@ For our COBOL example:
   - First implementation: a simple mapping between input conditions (that you know of) and whether to return `true` or `false`.
   - Alternative: always return `true` - yes, you'll get non-relevant rules, but that's a problem for *later*.
 - The document generation might also be manual for the first pass.
+
+![With shortcuts, we get to an end-to-end process quickly](/images/chapter08/cobol_steps_shortcuts.png)
 
 **End result:** A rough-looking document that works solely on a single program. This is far from shippable, but it's an extremely important milestone for ensuring research impacts the product.
 
