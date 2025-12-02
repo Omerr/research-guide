@@ -12,7 +12,7 @@ But drawing backwards alone has limitations. Two risks emerge:
 Your manually-created "ideal output" might be technically infeasible or impossibly expensive to generate. You won't discover this until you try to build it.
 
 **Risk 2: Lack of real-world validation**
-Since you haven't completed an end-to-end process, you probably haven't run your solution on clients' actual data (assuming you can't access it during the manual phase). What works on carefully-chosen examples might fail on real codebases.
+Since you haven't completed an end-to-end process, you probably haven't run your solution on clients' actual data (assuming you can't access it during the manual phase). Continuing our COBOL example from the previous chapter, what works on carefully-chosen examples might fail on real codebases.
 
 These two risks are why I advocate for **continuous end-to-end iterations**.
 
