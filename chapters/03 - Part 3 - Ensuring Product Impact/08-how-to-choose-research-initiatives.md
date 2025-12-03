@@ -10,16 +10,17 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 - First, choose research that matters ([chapter 6](#how-to-choose-research-initiatives)).
 - Then, work backwards from product value ([chapter 7](#drawing-backwards)).
 - Continuously validate with end-to-end iterations ([chapter 8](#end-to-end)).
-- Finally, see how everything integrates ([chapter 9](#integration)).
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
-The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding research that won't impact the product.
+The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding Research that won't impact the product.
 
 Research initiatives can start from two different places:
 
 1. From a problem the product is facing.
 2. From a technological opportunity.
+
+![Starting research intiatives - either from a product problem, or a technological opportunity](images/chapter06/starting_research.png)
 
 ### 1. Starting From a Concrete Problem
 
@@ -29,7 +30,7 @@ At [Swimm](https://swimm.io), we allowed users to write documents about their co
 
 Consider a different example: a medical company that wants to diagnose a disease based on a few blood samples. Currently, they have an algorithm in place, but it's not very accurate. Specifically, it yields too many false positives. They need to find a way to improve their prediction accuracy. This is a clear problem the product is facing, and it doesn't have a clear technological solution.
 
-In both cases, the problem is clear, and its impact on the product or company is clear. At the same time, the solution is not clear, and it's not certain that a solution will be technologically feasible.
+In both cases, the problem is clear, and its impact on the product or company is clear. At the same time, the *solution* is not clear, and it's not certain that a solution will be technologically feasible.
 
 ### 2. Starting From a Technological Opportunity
 
@@ -37,7 +38,7 @@ When generative AI became popular, many companies started exploring how to lever
 
 The same can happen with smaller, more specific technologies, and not necessarily new technologies - sometimes technologies that the relevant teams just familiarized themselves with. For example, if a researcher reads a paper about a new way to parse source code, that researcher might have an idea for a new product feature that can leverage this technology.
 
-While many good ideas come from technological opportunities, it's important to remember that the real impact of research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. In that case, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
+While many good ideas come from technological opportunities, it's important to remember that the real impact of Research is determined by the product, not the technology. It's far more risky to pursue a technological opportunity than a concrete problem. If you do start a Research based on a technological opportunity, your responsibility is to make sure that the technological opportunity, if pursued successfully, will indeed have a big impact on the product.
 
 ### Problem-Driven vs. Opportunity-Driven: A Comparison
 
@@ -48,9 +49,11 @@ While many good ideas come from technological opportunities, it's important to r
 | **Risk Level** | Lower - you know there's demand if you succeed | Higher - solution might not match any important problem |
 | **Validation** | Problem already validated through user feedback | Needs validation that the solution matters to users |
 | **Examples** | Swimm's auto-updating docs; Reducing false positives in medical diagnosis | "How can we use LLMs in our product?"; "This new parsing technique could enable..." |
-| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve it? |
+| **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve the problem? |
 
-Problem-driven research starts with validated demand. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
+Problem-driven research starts with validated demand - you know that the goal is worth pursuing. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
+
+![Product-driven research starts with a validated goal; Opportunity-driven research starts with a hammer looking for nails](images/chapter06/goal_vs_hammer.png)
 
 ### Should You Pursue a Research Initiative?
 
@@ -71,6 +74,8 @@ If you're not convinced a successful Research result would make a huge impact on
 
 Anything less, and your resources are better spent on Development work with clearer ROI.
 
+![Product Impact - will success create huge value?](images/chapter06/product_impact.png)
+
 **2. Time to Impact - How long until we see product value?**
 
 Time estimation is always hard in software. This is true for Development tasks, and even more so for Research. You learned ways to manage this uncertainty *during* Research in [chapter 5](#time-boxing), but even at this early pre-Research stage, you should consider the timeline.
@@ -88,6 +93,8 @@ The total timeline matters because:
 Of course, the actual timespans vary greatly by context (and specifically by the company you work for).
 
 Consider also whether you can achieve **incremental value**. Can you get *some* product impact in 3 months even if the full solution takes 9 months? This significantly de-risks longer Research initiatives.
+
+![Time to Impact - how long until we see product results?](images/chapter06/time_to_impact.png)
 
 **3. Resources - Do you have what you need?**
 
@@ -109,6 +116,8 @@ If not, can you acquire this knowledge in reasonable time? (Reading papers for a
 - Budget for tools, cloud resources, or datasets?
 
 If critical resources are unavailable or expensive to obtain, the initiative may not be viable.
+
+![Resources - Do we have the knowledge, capacity, and dependencies?](images/chapter06/resources.png)
 
 ### Pre-Research Checks
 
@@ -133,10 +142,14 @@ The next chapters assume you understand the product impact of successful Researc
 - **Problem-driven**: A clear product need (strongly preferred)
 - **Opportunity-driven**: A new technology (higher risk)
 
+![Starting research intiatives - either from a product problem, or a technological opportunity](images/chapter06/starting_research.png)
+
 **Before pursuing Research**, answer three questions:
 1. **Product Impact**: Will success create huge value?
 2. **Time to Impact**: How long until we see product results?
 3. **Resources**: Do we have the knowledge, capacity, and dependencies?
+
+![Three questions to answer before pursuing Research](images/chapter06/research_initiative_questions.png)
 
 **Run pre-research checks** (days, not weeks) to answer these questions if unclear.
 

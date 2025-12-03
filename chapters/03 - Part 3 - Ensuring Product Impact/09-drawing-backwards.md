@@ -2,7 +2,9 @@
 
 ## Chapter 7 - Drawing Backwards {#drawing-backwards}
 
-When facing a complex Research problem, where do you start? Most teams dive into technical challenges: parsing COBOL, building callgraphs, implementing algorithms. But there's a more powerful approach that ensures your Research actually impacts the product: **start from the end and work backwards**.
+So you've chosen a research initiative, and done so correctly (following [chapter 6](#how-to-choose-research-initiatives)). Now, how do you start working on it?
+
+Most teams start by diving into technical challenges: parsing COBOL, building callgraphs, implementing algorithms. But there's a more powerful approach that ensures your Research actually impacts the product: **start from the end and work backwards**.
 
 This heuristic - working backwards from your goal - is one of the most valuable problem-solving strategies you can use. Let me show you why with a simple game.
 
@@ -10,38 +12,60 @@ This heuristic - working backwards from your goal - is one of the most valuable 
 
 Consider this game:
 
-![https://photos.google.com/search/atlanta/photo/AF1QipPIoGfmBHOSGdzd1MtAeSiGF-Wgs2AlHIR8-DAa](IMAGE: A spiral board numbered from 1 to 41, with a duck token on spot 41)
+![A spiral board numbered from 1 to 41, with a pawn on spot 41](images/chapter07/spiral_game_1.png)
 
 The rules are simple:
-- The duck starts on spot 41.
-- On each turn, a player moves the duck backward between 1 to 6 spots. That is, if the duck is on spot 41, you can move it to any spot from 35 to 40.
-- The player who moves the duck to spot 1 wins.
+- The pawn starts on spot 41.
+- On each turn, a player moves the pawn backward between 1 to 6 spots. That is, if the pawn is on spot 41, you can move it to any spot from 35 to 40.
+- The player who moves the pawn to spot 1 wins.
 
 Take a moment: If you go first, how would you play to guarantee a win?
+
+(I do encourage you to take a moment and try this for yourself first.)
+
+\newpage
 
 Most people start thinking from the current position (spot 41) and try to calculate forward: "If I move 3 spaces, they can move 2, then I can move 4..." This quickly becomes overwhelming - too many possible moves to track.
 
 But if you **work backwards**, the solution becomes clear:
 
 **Starting from the end (spot 1):**
-- To win, you need the duck on spot 1 on your turn.
-- Your opponent just moved, so the duck could be on spots 2-7 (since they moved 1-6 backward from wherever it was).
+- To win, you need the pawn on spot 1 on your turn.
+- Your opponent just moved, so the pawn could be on spots 2-7 (since they moved 1-6 backward from wherever it was).
 - For any spot from 2-7, you can move directly to spot 1.
-- **Conclusion**: If the duck is on spots 2-7 at the start of your turn, you win.
+- **Conclusion**: If the pawn is on spots 2-7 at the start of your turn, you win.
+
+![You do *not* want to land on spots 2-7](images/chapter07/spiral_game_2.png)
 
 **Continue working backwards (from spots 2-7):**
-- You want your opponent to *not* be able to land on spots 2-7.
+- You want your opponent to land on spots 2-7.
 - From spot 8, no matter what they do (move 1-6), they land on spots 2-7.
-- **Conclusion**: If you get the duck to spot 8, you guarantee a win.
+- **Conclusion**: If you get the pawn to spot 8, you guarantee a win.
+
+![If you land on spot 8, you win](images/chapter07/spiral_game_3.png)
 
 **Continue working backwards from spot 8:**
+
+Notice, that you've just created a "new" game - you no longer need to land on spot 1 in order to win. It's enough that you land on spot 8 - as from there, you can win no matter what your opponent does.
+
+So, how do you ensure you can land on spot 8?
+
 - Spots 9-14 all allow moving to spot 8.
-- So if your opponent starts their turn with duck on 9-14, you can force it to 8.
+- So if your opponent starts their turn with pawn on a spot between 9-14, you can force it to 8.
+- Which means you do *not* want to land on spots 9-14, but you do want to land on 15 (which will force your opponent, in turn, to land somewhere between 9-14).
+
+![If you land on spot 15, you win](images/chapter07/spiral_game_4.png)
+
+Again, you've just created a "new" game - where your goal is to land on spot 15. From there, you already know how to win.
+
+You can keep going like this, drawing backwards - would you want to land on spot 16 or not? How about 17? Until, at some point...
 
 **The pattern emerges:**
 - Safe spots for you: 1, 8, 15, 22, 29, 36
 - From any of these, your opponent cannot avoid giving you another safe spot
 - These are all numbers of the form: `1 + 7n`
+
+![The winning pattern](images/chapter07/spiral_game_5.png)
 
 **The winning strategy:**
 - From spot 41, move 5 spots backward to reach spot 36 (a "safe spot").
@@ -50,7 +74,9 @@ But if you **work backwards**, the solution becomes clear:
 
 Notice what happened: By working backwards from the goal, you discovered the systematic solution. Working forward from the start position would have been much, much harder.
 
-### How to Apply Drawing Backwards to Research
+You actually deployed a second, powerful heuristic here - considering specific cases (1, 8, 15, 22, 29, 36) - and generalizing (`1+7n`). This heuristic is also very common in research, though not specifically when aiming to ensure product impact.
+
+### How to Apply Drawing Backwards to Product-led Research
 
 Let's connect this to Product-led Research. When you face a complex Research challenge, the question isn't "What technical problem should I solve first?" but rather:
 
@@ -94,6 +120,8 @@ Faced with this problem, you might think:
 
 Each of these might require its own research effort. Where do you start?
 
+![Where do you start?](images/chapter07/where_to_start.png)
+
 #### Drawing Backwards: Start with the End Result
 
 Drawing backwards made us ask:
@@ -101,6 +129,8 @@ Drawing backwards made us ask:
 **"If the Research succeeds, what would the result look like?"**
 
 When we first asked ourselves this question, we weren't sure. We knew from our clients that they wanted extracted business rules, but we couldn't know what the "ideal" output would look like.
+
+![Start with the end result](images/chapter07/end_result.png)
 
 So we decided, **before tackling any technical challenges**, to manually create documents showing extracted business rules from sample programs. We did this completely manually - no parsing, no algorithms, just understanding COBOL code ourselves and writing documentation.
 
@@ -120,6 +150,8 @@ Once we manually wrote the documents, it was time to verify our hypothesis. With
 2. Reach out to clients - show them the actual output and ask: "Does this solve your problem?"
 
 We deliberately **refrained from solving hard technological challenges** before knowing where we were aiming.
+
+![Hypothesize about your end result](images/chapter07/form_hypothesis.png)
 
 #### Working Backwards Through Sub-Problems
 

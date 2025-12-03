@@ -16,6 +16,10 @@ Now consider this: Your team needs to automatically extract business rules from 
 
 The distinction isn't about difficulty or technical sophistication. It's about **uncertainty of approach**.
 
+Throughout this book, I will adopt the following definition: Research is confronting problems where you don't know if solutions exist or which approaches will work.
+
+![Research definition](images/chapter01/research_definition.png)
+
 **Research** confronts problems where:
 
 - You don't know if a solution exists.
@@ -28,6 +32,8 @@ The distinction isn't about difficulty or technical sophistication. It's about *
 - Applying known techniques to build specific features.
 - Following established approaches, even if complex.
 - Clear success criteria tied to working software.
+
+![Research vs Development](images/chapter01/research_vs_development.png)
 
 I've found Alan Schoenfeld's model of problem solving [1] to be a useful framework for defining and analyzing research. Schoenfeld, studying how people solve mathematical problems, identified four** components that determine success when facing genuinely uncertain problems. His framework applies directly to software Research:
 
@@ -50,13 +56,13 @@ We will cover heuristics in much more detail later. For now, here are some examp
 - "Try a simpler version first".
 - "List all assumptions and test each one".
 
-For COBOL: "Start by manually extracting rules from one small program to understand what 'success' looks like"
+For our COBOL business rule extraction case: "Start by manually extracting rules from one small program to understand what 'success' looks like".
 
 **3. Control** — Monitoring and adjusting your approach
 
 Recognizing when your current strategy isn't working. Deciding when to pivot to a different approach. Managing your time and resources effectively.
 
-This is what separates experienced researchers from novices - it's not just what you know, but when and how you use it.
+This is what separates experienced researchers from novices - it's not just what you know, and the heuristics that you may deploy, but when and how you use them. If you choose one approach, reflect on its effectiveness, and decide to try something different when needed, that's an example of control.
 
 **4. Beliefs and Attitudes** — Your mindset toward the problem
 
@@ -67,6 +73,8 @@ Schoenfeld found that successful problem solvers held certain beliefs that helpe
 - "I should write things down and work systematically" vs. "I should solve this in my head".
 
 These beliefs profoundly affect your ability to persist and succeed.
+
+![Schoenfeld's Framework](images/chapter01/components_of_problem_solving.png)
 
 ### Why This Matters for R&D Leaders
 
@@ -81,7 +89,7 @@ The issue isn't (necessarily) capability. It's that Research requires different 
 
 **The good news**: All four components can be improved. People get better at Research through practice, exposure to effective heuristics, and environments that support good Control and healthy Beliefs.
 
-The rest of this book provides concrete tools, like using a Research Tree, structured brainstorming, and time-boxing methods, that put Schoenfeld's framework into action in a Product-led environment. These tools help you and your team apply better heuristics, maintain effective control, and build the beliefs that sustain successful Research.
+The rest of this book provides concrete tools, like using a Research Tree, drawing backwards, and time-boxing methods, that put Schoenfeld's framework into action in a Product-led environment. These tools help you and your team apply better heuristics, maintain effective control, and build the beliefs that sustain successful Research.
 
 But first, let's make sure we're clear on when you actually need these tools. [The next chapter](#Research-and-development) dives deeper into distinguishing Research from Development work.
 

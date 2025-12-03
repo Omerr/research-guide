@@ -5,6 +5,8 @@ Back in [chapter 2](#research-and-development), you learned that your role as a 
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
+![Your Role as Research Leader](images/chapter02/lead_goals.png)
+
 [Part 2](#part2-research-management-methods) handled ensuring Research is done effectively.
 
 [Part 3](#part3-ensuring-product-impact) handled ensuring Research connects to product impact - your most important responsibility. This part provided a complete methodology for ensuring product impact through three complementary stages:
@@ -17,6 +19,8 @@ Before starting any Research, answer three critical questions:
 1. **Product impact** - Will success create huge value?
 2. **Time to impact** - How long until we see product results?
 3. **Resources** - Do we have the knowledge, capacity, and dependencies?
+
+![Three questions to answer before pursuing Research](images/chapter06/research_initiative_questions.png)
 
 You learned to distinguish between problem-driven research (starting from validated customer pain points, which is strongly preferred) and opportunity-driven research (starting from new technologies).
 
@@ -31,11 +35,15 @@ Once you've chosen what to research, the drawing backwards heuristic ensures tha
 3. **Work backwards through dependencies** - From that validated output, identify what you need to produce it, then what you need for that, working your way back to your starting point.
 4. **Solve in reverse order** - Tackle the final step first (with earlier steps mocked), validating that each step contributes to the goal before investing heavily in earlier dependencies.
 
+![Hypothesize about your end result](images/chapter07/form_hypothesis.png)
+
 The spiral game example showed why this works: working backwards from the goal reveals systematic solutions that working forward obscures.
 
 Drawing backwards forces product connection because you literally start with product output. It integrates with the Research Tree ([chapter 4]({#the-research-tree})): While drawing backwards identifies *what* questions matter, the Tree helps you explore approaches for answering them.
 
 **Stage 3: Validate and build iteratively** ([chapter 8](#end-to-end))
+
+![The five principles of end-to-end iterations](images/chapter08/e2e_principles.png)
 
 Drawing backwards alone has two limitations:
 - Your manually-created "ideal output" might be technically infeasible to generate.
