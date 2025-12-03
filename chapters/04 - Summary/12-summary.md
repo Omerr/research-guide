@@ -14,11 +14,15 @@ You saw how Alan Schoenfeld's problem-solving framework breaks down the Research
 - **Control** - monitoring and adjusting your approach.
 - **Beliefs** - your mindset toward the problem.
 
+![Schoenfeld's Framework](images/chapter01/components_of_problem_solving.png)
+
 The good news: all four can be improved with the right management and methods.
 
 In [chapter 2](#research-and-development), you explored the distinction between Research and Development more deeply. You learned that your role as a Research leader has two parts:
 1. **Ensure Research connects to product impact** - "Successful" Research that doesn't affect the product is a failed project. This is the most important part in Product-led companies.
 2. **Ensure Research is done effectively** - Even brilliant researchers benefit from structured approaches.
+
+![Your Role as Research Leader](images/chapter02/lead_goals.png)
 
 This two-part framework organized everything that followed.
 
