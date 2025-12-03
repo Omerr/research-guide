@@ -47,6 +47,7 @@ Which question were you trying to answer? Why did you choose this approach over 
 **2. What did you learn?**
 
 Document your discoveries, even if incomplete:
+
 - "The approach works but needs more sophisticated algorithms than we thought."
 - "We need data we don't currently have."
 - "This is harder than expected - would take at least 2 more weeks."

@@ -3,10 +3,12 @@
 # Part 3 - Ensuring Product Impact {#part3-ensuring-product-impact}
 
 In [chapter 2](#research-and-development), I argued that your role as a Research leader is to:
+
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
 Part 2 addressed (2) above - ensuring Research is done effectively - with tools that work in ANY research context. This part provides the complete answer to (1) - ensuring Research connects to product impact:
+
 - First, choose research that matters ([chapter 6](#how-to-choose-research-initiatives)).
 - Then, work backwards from product value ([chapter 7](#drawing-backwards)).
 - Continuously validate with end-to-end iterations ([chapter 8](#end-to-end)).
@@ -68,6 +70,7 @@ For problem-driven research, this is usually straightforward: "If we solve autom
 For opportunity-driven research, you need to work harder: "If we use LLMs for code analysis, we could enable X feature, which would help Y users save Z hours per week, translating to $W in additional revenue."
 
 If you're not convinced a successful Research result would make a huge impact on the product, it's probably not worth pursuing at the moment (until you *are* convinced). "Huge impact" means:
+
 - Solving a top-3 customer pain point, OR
 - Enabling a new product capability that significantly expands your market, OR
 - Reducing a major cost or risk factor
@@ -86,6 +89,7 @@ Ask yourself two related questions:
 - **How long from successful Research to product impact?** (immediate integration? requires significant Development? needs market validation?)
 
 The total timeline matters because:
+
 - Research that takes 6 months but delivers immediate product value might be worthwhile.
 - Research that takes 2 months but requires 8 more months of Development might not be worth it if your product roadmap can't accommodate that.
 - Research that takes 1 year with uncertain outcomes probably isn't worth pursuing unless the potential impact is transformational.
@@ -101,6 +105,7 @@ Consider also whether you can achieve **incremental value**. Can you get *some* 
 Research requires specific resources beyond just "engineering time":
 
 **Knowledge**: Do you have team members familiar with the relevant:
+
 - Technical domain (for example, NLP, compiler design, distributed systems)?
 - Business domain (for example, medical diagnostics, financial regulations)?
 - Similar problems solved elsewhere?
@@ -110,6 +115,7 @@ If not, can you acquire this knowledge in reasonable time? (Reading papers for a
 **Capacity**: Can you dedicate someone (or multiple people) for the expected duration? Research requires sustained focus - splitting someone 10% on Research and 90% on urgent product work rarely succeeds.
 
 **Dependencies**: Do you need:
+
 - Access to specific data or systems?
 - Collaboration from other teams?
 - External expertise or consulting?
@@ -139,12 +145,14 @@ The next chapters assume you understand the product impact of successful Researc
 ### How to Choose Research Initiatives - Summary
 
 **Research initiatives** start from either:
+
 - **Problem-driven**: A clear product need (strongly preferred)
 - **Opportunity-driven**: A new technology (higher risk)
 
 ![Starting research intiatives - either from a product problem, or a technological opportunity](images/chapter06/starting_research.png)
 
 **Before pursuing Research**, answer three questions:
+
 1. **Product Impact**: Will success create huge value?
 2. **Time to Impact**: How long until we see product results?
 3. **Resources**: Do we have the knowledge, capacity, and dependencies?

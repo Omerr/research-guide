@@ -47,6 +47,7 @@ You can use a simple pen and paper, a whiteboard, or a digital tool to draw this
 Now, how can you answer this question? What approaches might tell you where the bottleneck is?
 
 You might identify:
+
 - Profile the application with a performance monitoring tool.
 - Add detailed logging to measure each operation.
 - Use database query analysis tools.
@@ -186,6 +187,7 @@ This answer leads to a new question:
 ![New question about fixing N+1](images/chapter04/research_tree_9.png)
 
 Now you have three solution approaches. Again, evaluate them:
+
 - Rewrite queries with JOINs: Fast to implement, proven pattern.
 - Add Eager Loading: Depends on your ORM, might be quick.
 - DataLoader Pattern: Requires learning new pattern, takes longer.
@@ -214,16 +216,19 @@ Let's see how the full tree looks after a few days of investigation:
 When you're creating your Research Tree, you'll mark both questions and approaches with a particular status. Of course, the following specific colors are just suggestions - the important thing is to keep something consistently so you can quickly see the status at a glance.
 
 **For Questions:**
+
 - **Open**: Not yet answered.
 - **Closed**: Answered (show the answer).
 - **Blocking**: Must answer before proceeding with an approach.
 
 **For Approaches:**
+
 - **Green**: Viable, worth pursuing.
 - **Brown**: Uncertain, needs investigation.
 - **Red**: Dead end or not viable.
 
 In our example above:
+
 - "Rewrite with Joins" is Green because we've identified that it addresses the specific N+1 problem and that the team is confident in implementing it.
 - "Redesign API" is Red because it would take too long for this project.
 - Other approaches are Brown because we haven't investigated them yet.
@@ -278,12 +283,14 @@ Done? Good. You now have your first Research Tree with a clear starting point.
 Research Trees become even more powerful when shared with a team. It actually provides you, the Lead, with a way to see what directions the team is executing upon, and why. Your job here is to make sure the framework is used. Help your team stop and ask: are we asking the right questions? Are there approaches that we missed? Are we choosing the right approach?
 
 **During Planning:**
+
 - Draw the tree together as a group.
 - Brainstorm questions and approaches.
 - Evaluate approaches using the framework (fastest feedback, lowest cost, best coverage).
 - Everyone sees *why* you're trying a particular approach first.
 
 **During Execution:**
+
 - Update the tree as you learn.
 - When stuck, revisit the tree to identify alternative approaches.
 - Make sure you consider whether you are asking all of the important questions, and whether you are considering all relevant approaches.
@@ -333,9 +340,11 @@ The Research Tree is a living visual framework that:
 - Evolves as you learn - questions get answered, new questions emerge.
 
 **Key structure:**
+
 - Goal → Question → Approaches to answer it → Answer → New questions
 
 **Decision framework for choosing approaches:**
+
 1. Which gives fastest feedback?
 2. Which has lowest cost?
 3. Which answers the most questions?
