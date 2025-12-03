@@ -21,6 +21,7 @@ It doesn't have to be this way.
 By reading this book, you will gain practical tools for managing Research that creates real product impact.
 
 You will learn your **two critical roles as a Research leader**:
+
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 

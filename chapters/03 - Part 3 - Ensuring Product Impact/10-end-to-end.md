@@ -16,18 +16,23 @@ Since you haven't completed an end-to-end process, you probably haven't run your
 
 These two risks are why I advocate for **continuous end-to-end iterations**.
 
+\newpage
+
 ### Drawing Backwards + End-to-End: A Combined Approach
 
 These aren't competing approaches - they're complementary:
 
 | Heuristic | Purpose | What It Gives You | Strength | Limitation |
 |----------|---------|-------------------|----------|------------|
-| **Drawing Backwards** ([chapter 7](#drawing-backwards)) | Define target and path | 1. Target output<br>2. Hypothesized chain of steps to get there<br>3. Order of dependencies | Ensures product focus; reveals what you need to build |    |
-| **End-to-End Iterations** (this chapter) | Validate and build incrementally | 1. Proof the chain works<br>2. Learning from real data<br>3. Prioritized improvements | Validates feasibility; discovers what actually works | Can lose direction without clear target and chain |
+| **Drawing Backwards** ([chapter 7](#drawing-backwards)) | Define target and path | 1. Target output\ 2. Hypothesized chain of steps to get there\ 3. Order of dependencies | Ensures product focus; reveals what you need to build | Hypotheses may be wrong; doesn't validate feasibility on real data   |
+| **End-to-End Iterations** (this chapter) | Validate and build incrementally | 1. Proof the chain works\ 2. Learning from real data\ 3. Prioritized improvements | Validates feasibility; discovers what actually works | Can lose direction without clear target and chain |
 
 ![These are complementary heuristics](images/chapter08/heurstics_comparison.png)
 
+\newpage
+
 **The recommended flow:**
+
 1. Use drawing backwards to:
    - Define your target output (manually create examples, validate with users).
    - Identify the chain of intermediary steps needed to produce that output.
@@ -74,6 +79,7 @@ This is your first draft - the hypothesized process that drawing backwards revea
 ![First end-to-end process draft](images/chapter08/cobol_steps.png)
 
 **How to outline:**
+
 - Draw boxes on a whiteboard.
 - Use a flowchart if the process isn't linear.
 - Keep it visible throughout the research.
@@ -92,6 +98,7 @@ This sounds like too much. Don't you need to complete the whole research to achi
 This means that some of the steps can be completed manually, or with very simple implementations that you know won't work in production. Remember it is an intermediate milestone, not the final product.
 
 For our COBOL example:
+
 - Start with a single, known COBOL program.
 - **Skip parsing** - just manually write a list of conditions for the next stage.
 - The filtering function returns `true` if business-related, `false` otherwise.
@@ -106,6 +113,7 @@ For our COBOL example:
 You might argue that it's overkill, and why waste this time on manual steps when you'll need to automate them eventually? Even if you don't, I promise from experience that many researchers and engineers feel that way. 
 
 From my own experience, I learned (the hard way) that this pays off. Getting to a working end-to-end makes sure you:
+
 - Validate that the entire flow works.
 - Identify bottlenecks and blockers early.
 - Have something concrete to show and get feedback on.
@@ -122,15 +130,18 @@ Does "shippable" mean it works on *any* program? That's too hard and takes too l
 This is where creativity matters. For our COBOL example:
 
 **Information gathering:**
+
 - If running on a client's program, get as much information as possible.
 - Perhaps assume it's less than 1,000 lines of code.
 - Perhaps you know which COBOL dialect the client uses, so you don't need to support others (fun fact: [COBOL has more than 300 dialects](https://www.cs.vu.nl/grammarware/500/500.pdf). Well, it's fun for you, not for those who need to support them). 
 
 **Algorithmic shortcuts:**
+
 - Use regular expressions to find conditions instead of a full parser.
 - Yes, you'll miss some conditions - that's a problem for *later*.
 
 **UX shortcuts:**
+
 - Skip the document generation. Just print rules to the console.
 - Run from the command line without a GUI.
 - Manual configuration file instead of user interface.
@@ -142,11 +153,13 @@ It doesn't need to be perfect. It needs to be enough to learn from this iteratio
 Unlike in Principle 2, note that here you don't generate an output (partially) manually - you need a working software that can run on real data.
 
 **What "shippable" means:**
+
 - Works on the client's actual data (even if imperfectly).
 - Produces output you can get real feedback on.
 - Doesn't require your manual intervention for each run.
 
 **What "shippable" doesn't mean:**
+
 - Perfect accuracy.
 - Handles all edge cases.
 - Production-quality code.
@@ -159,6 +172,7 @@ You can't learn from iteration without shipping. And you can't ship without a wo
 ### Principle 4: Gradually Replace Steps, While Carefully Prioritizing
 
 Now you have a working end-to-end process. You can start replacing various steps' implementations with better ones:
+
 - Replace manual steps with automated ones.
 - Remove shortcuts and add more robust implementations.
 - Improve accuracy and coverage
@@ -188,6 +202,7 @@ Continuing with our COBOL example, you may consider and prioritize these changes
 
 ```
 Changes after first iteration:
+
 - Fix parser to handle nested conditions [Learned: Critical, 2 days] → DO FIRST
 - Add GUI for document generation [Nice-to-have, 1 week] → DEFER
 - Improve filtering accuracy [Learning: Critical, 3 days] → DO SECOND  
@@ -248,20 +263,25 @@ Notice: Each cycle is fast, focused on one question, and based on real learning.
 
 In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. Also, when working with real clients, they might not be as receptive to trying things so many times - of course, you need to consider that aspects as well. Regardless, the key remains the same: keep cycles short and focused on learning.
 
+\newpage
+
 ### Integration with Other Tools
 
 End-to-end iterations work best when combined with other research management tools:
 
 **Research Tree ([chapter 4](#the-research-tree)):**
+
 - The outlined process becomes a branch in your tree.
 - Each iteration tests different approaches on branches.
 - Failed iterations mark branches red, successful ones mark green.
 
 **Time-boxing ([chapter 5](#time-boxing)):**
+
 - Time-box each iteration.
 - If you can't ship in the time box, you're building too much.
 
 **Drawing Backwards ([chapter 7](#drawing-backwards)):**
+
 - Drawing backwards ([chapter 7](#drawing-backwards)) defines both:
   - The target output.
   - The hypothesized chain of intermediary steps to reach it.
@@ -275,6 +295,7 @@ End-to-end iterations work best when combined with other research management too
 **End-to-end iterations** ensure Research impacts the product by continuously validating feasibility and learning from real data.
 
 **The five principles:**
+
 1. **Outline the process** - Draw backwards already gives you this: the chain from input to output.
 2. **Simplify to get end-to-end** - Use shortcuts and manual steps to make the whole chain work.
 3. **Ship fast** - Real data teaches what theory can't.

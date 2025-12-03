@@ -15,6 +15,7 @@ Consider this game:
 ![A spiral board numbered from 1 to 41, with a pawn on spot 41](images/chapter07/spiral_game_1.png)
 
 The rules are simple:
+
 - The pawn starts on spot 41.
 - On each turn, a player moves the pawn backward between 1 to 6 spots. That is, if the pawn is on spot 41, you can move it to any spot from 35 to 40.
 - The player who moves the pawn to spot 1 wins.
@@ -30,6 +31,7 @@ Most people start thinking from the current position (spot 41) and try to calcul
 But if you **work backwards**, the solution becomes clear:
 
 **Starting from the end (spot 1):**
+
 - To win, you need the pawn on spot 1 on your turn.
 - Your opponent just moved, so the pawn could be on spots 2-7 (since they moved 1-6 backward from wherever it was).
 - For any spot from 2-7, you can move directly to spot 1.
@@ -38,6 +40,7 @@ But if you **work backwards**, the solution becomes clear:
 ![You do *not* want to land on spots 2-7](images/chapter07/spiral_game_2.png)
 
 **Continue working backwards (from spots 2-7):**
+
 - You want your opponent to land on spots 2-7.
 - From spot 8, no matter what they do (move 1-6), they land on spots 2-7.
 - **Conclusion**: If you get the pawn to spot 8, you guarantee a win.
@@ -61,6 +64,7 @@ Again, you've just created a "new" game - where your goal is to land on spot 15.
 You can keep going like this, drawing backwards - would you want to land on spot 16 or not? How about 17? Until, at some point...
 
 **The pattern emerges:**
+
 - Safe spots for you: 1, 8, 15, 22, 29, 36
 - From any of these, your opponent cannot avoid giving you another safe spot
 - These are all numbers of the form: `1 + 7n`
@@ -68,6 +72,7 @@ You can keep going like this, drawing backwards - would you want to land on spot
 ![The winning pattern](images/chapter07/spiral_game_5.png)
 
 **The winning strategy:**
+
 - From spot 41, move 5 spots backward to reach spot 36 (a "safe spot").
 - No matter what your opponent does, you can always move to the next "safe spot".
 - Eventually, you reach spot 1 and win.
@@ -83,6 +88,7 @@ Let's connect this to Product-led Research. When you face a complex Research cha
 **"If the Research succeeds, what would the result look like?"**
 
 This forces you to:
+
 1. **Connect to product impact** - You must envision the end state that creates value.
 2. **Work systematically** - Like the spiral game, you identify the chain of dependencies backward.
 3. **Validate assumptions** - Before solving sub-problems, ensure they lead to your goal.
@@ -94,6 +100,7 @@ Let me show you how this worked in practice at Swimm.
 At Swimm, we wanted to automatically generate documents from COBOL codebases that included all the extracted business rules.
 
 **Quick context on business rules:** Business rules are the constraints, conditions, and actions embedded within software that reflect organizational policies. For example, in money transfer logic:
+
 - A customer cannot transfer more than their available balance (overdraft limits notwithstanding).
 - High-value transfers require additional verification.
 - Cross-currency transfers must apply current exchange rates.
@@ -112,6 +119,7 @@ Our goal was to extract all business rules from a COBOL codebase. While challeng
 #### Where Do You Even Start?
 
 Faced with this problem, you might think:
+
 - "Should I build a callgraph of all functions? That means I need to parse COBOL code..."
 - "Should I create a COBOL parser first?"
 - "Maybe I should read academic papers about program comprehension?" (Good practice during the pre-Research checks phase from [chapter 6](#how-to-choose-research-initiatives))
@@ -134,7 +142,10 @@ When we first asked ourselves this question, we weren't sure. We knew from our c
 
 So we decided, **before tackling any technical challenges**, to manually create documents showing extracted business rules from sample programs. We did this completely manually - no parsing, no algorithms, just understanding COBOL code ourselves and writing documentation.
 
+\newpage
+
 We did this for various types of applications from different codebases, and learned:
+
 - There's no single "right" way to construct such a document.
 - The output structure differs from one program to another.
 - Certain patterns appear consistently across business logic.
@@ -146,6 +157,7 @@ But was it actually the north star?
 #### Validating the Hypothesis
 
 Once we manually wrote the documents, it was time to verify our hypothesis. With concrete output in hand, we could:
+
 1. Discuss internally within the team - get feedback from engineers who understand both COBOL and our product.
 2. Reach out to clients - show them the actual output and ask: "Does this solve your problem?"
 
@@ -194,16 +206,19 @@ Working backwards lets you validate that each sub-problem actually contributes t
 Drawing backwards integrates naturally with the Research Tree from [chapter 4](#the-research-tree). When you create your tree:
 
 **Start with the end:**
+
 - Root of tree: "Generate impactful business rule documentation".
 - First question: "What should successful output look like?"
 - Approach: Create manual examples.
 
 **Then work backwards:**
+
 - Once you have output, ask: "What do we need to produce this?".
 - This reveals the actual sub-questions and their dependencies.
 - Each branch represents a prerequisite you need to solve.
 
 **Validate before going deeper:**
+
 - Before pursuing any branch deeply, ask: "If I solve this, does it actually get me closer to the goal?"
 - Mock out dependencies to test approaches cheaply.
 - Use time-boxing (from [chapter 5](#time-boxing)) to limit exploration of any branch.
@@ -213,6 +228,7 @@ Drawing backwards integrates naturally with the Research Tree from [chapter 4](#
 **Drawing backwards** is the heuristic of starting from your desired end state and working systematically toward your current position.
 
 **In Product-led Research**, drawing backwards means:
+s
 1. Start by defining what successful output looks like (often manually or semi-manually).
 2. Validate the output with stakeholders before technical work.
 3. Work backwards through dependencies, solving them in reverse order.
@@ -221,6 +237,7 @@ Drawing backwards integrates naturally with the Research Tree from [chapter 4](#
 This heuristic ensures that Research connects to product impact, since you start with the product goal. It provides systematic progress even when problems seem overwhelming, and makes you validate each step before you invest heavily.
 
 **Integration with other tools:**
+
 - Use with Research Tree ([chapter 4](#the-research-tree)) to map backwards dependencies.
 - Apply time-boxing ([chapter 5](#time-boxing)) to limit exploration of each branch.
 - Combine with pre-Research checks ([chapter 6](#how-to-choose-research-initiatives)) to validate product impact.

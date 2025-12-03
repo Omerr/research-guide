@@ -1,7 +1,9 @@
 \newpage
+
 ## Part 3 Summary {#part3-summary}
 
 Back in [chapter 2](#research-and-development), you learned that your role as a Research leader is to:
+
 1. Ensure Research connects to product impact.
 2. Ensure Research is done effectively.
 
@@ -16,6 +18,7 @@ Back in [chapter 2](#research-and-development), you learned that your role as a 
 **Stage 1: Choose research that matters** ([chapter 6](#how-to-choose-research-initiatives))
 
 Before starting any Research, answer three critical questions:
+
 1. **Product impact** - Will success create huge value?
 2. **Time to impact** - How long until we see product results?
 3. **Resources** - Do we have the knowledge, capacity, and dependencies?
@@ -46,6 +49,7 @@ Drawing backwards forces product connection because you literally start with pro
 ![The five principles of end-to-end iterations](images/chapter08/e2e_principles.png)
 
 Drawing backwards alone has two limitations:
+
 - Your manually-created "ideal output" might be technically infeasible to generate.
 - You haven't validated on real user data.
 
@@ -62,6 +66,7 @@ These chapters form a complete methodology for product-led Research:
 - **[Chapter 8](#end-to-end)** ensures you continuously validate with real users.
 
 Each stage prevents different undesired, but painfully common outcomes:
+
 - **[Chapter 6](#how-to-choose-research-initiatives)** prevents pursuing research that won't matter (even if successful).
 - **[Chapter 7](#drawing-backwards)** prevents building technically correct solutions that don't create product value.
 - **[Chapter 8](#end-to-end)** prevents building infeasible solutions or solutions that fail on real data.
