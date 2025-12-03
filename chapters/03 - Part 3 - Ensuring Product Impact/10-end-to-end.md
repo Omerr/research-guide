@@ -44,11 +44,11 @@ Drawing backwards already outlines your end-to-end process (Principle 1 below). 
 
 The end-to-end approach relies on five principles:
 
-1. **Outline the end-to-end process** - Always have it at hand.
-2. **Get to end-to-end by simplifying** - Take shortcuts to make it work.
-3. **Ship it as fast as you can** - Real data teaches what theory can't.
-4. **Gradually replace steps** - Carefully prioritize improvements.
-5. **Get frequent feedback on results** - Learn and adjust continuously.
+1. Outline the end-to-end process.
+2. Get to end-to-end by simplifying.
+3. Ship it as fast as you can.
+4. Gradually replace steps.
+5. Get frequent feedback on results.
 
 Let me explain each principle using the COBOL business rules example from [chapter 7](#drawing-backwards). Since this book isn't about COBOL, I'll keep explanations short while focusing on the methodology.
 
