@@ -95,7 +95,7 @@ Specifically, even the most talented researcher benefits from:
 
 Research is not magic, it *can* be managed effectively.
 
-![Research is not magic, and it can be managed](images/chapter02/research_neq_magic.png)
+![Research is not magic, and it can be managed](images/chapter02/magic_neq_research.png)
 
 ### Your Role as Research Leader
 
