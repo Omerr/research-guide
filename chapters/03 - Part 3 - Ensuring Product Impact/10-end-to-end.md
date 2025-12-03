@@ -170,7 +170,7 @@ After shipping, you'll have many things you think you *must* replace immediately
 Prioritize changes based on three criteria:
 
 **1. Learned Necessity**
-Did you learn that something doesn't work in the current implementation and must be fixed for the product to be viable?
+Did you learn that something doesn't work in the current implementation and **must** be fixed for the product to be viable?
 
 *Example: "Regular expressions miss nested conditions, and 60% of the client's business rules are in nested conditions. We must use a real parser."*
 
@@ -184,7 +184,7 @@ How much time will this change take?
 
 *Example: "Building a full parser: 3 weeks. Improving regex to handle nested conditions: 2 days. The latter gives us 80% of the value for 10% of the effort."*
 
-**Prioritization in practice:**
+Continuing with our COBOL example, you may consider and prioritize these changes following the first iteration:
 
 ```
 Changes after first iteration:
@@ -199,7 +199,7 @@ Iterate fast - change something, ship again, get feedback. Don't solve every iss
 
 ### Principle 5: Get Frequent Feedback on Results
 
-The last principle: get feedback on the end result as frequently as possible.
+The trick is to be obsessed with getting as much feedback as you can, on each and every iteration.
 
 **On each iteration:**
 
@@ -246,7 +246,7 @@ Iteration 3:
 
 Notice: Each cycle is fast, focused on one question, and based on real learning.
 
-In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. The key is to keep cycles short and focused on learning.
+In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. Also, when working with real clients, they might not be as receptive to trying things so many times - of course, you need to consider that aspects as well. Regardless, the key remains the same: keep cycles short and focused on learning.
 
 ### Integration with Other Tools
 
@@ -262,21 +262,17 @@ End-to-end iterations work best when combined with other research management too
 - If you can't ship in the time box, you're building too much.
 
 **Drawing Backwards ([chapter 7](#drawing-backwards)):**
-- Drawing backwards provides the foundation: target output as well as the hypothesized chain of steps.
+- Drawing backwards ([chapter 7](#drawing-backwards)) defines both:
+  - The target output.
+  - The hypothesized chain of intermediary steps to reach it.
 - End-to-end iterations test whether that chain actually works on real data.
 - The target from drawing backwards acts as your north star throughout iterations.
 - Each iteration validates or refines the steps that drawing backwards identified.
+- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and lets you test it incrementally.
 
 ### Summary: End-to-End Iterations
 
 **End-to-end iterations** ensure Research impacts the product by continuously validating feasibility and learning from real data.
-
-**Relationship to drawing backwards:**
-- Drawing backwards ([chapter 7](#drawing-backwards)) defines both:
-  - The target output.
-  - The hypothesized chain of intermediary steps to reach it.
-- End-to-end iterations validate that hypothesized chain on real data and build it incrementally.
-- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and lets you test it incrementally.
 
 **The five principles:**
 1. **Outline the process** - Draw backwards already gives you this: the chain from input to output.
