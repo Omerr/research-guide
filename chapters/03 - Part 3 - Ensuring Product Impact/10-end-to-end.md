@@ -261,7 +261,7 @@ Iteration 3:
 
 Notice: Each cycle is fast, focused on one question, and based on real learning.
 
-In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. Also, when working with real clients, they might not be as receptive to trying things so many times - of course, you need to consider that aspects as well. Regardless, the key remains the same: keep cycles short and focused on learning.
+In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. Also, when working with real clients, they might not be as receptive to trying things so many times - of course, you need to consider that aspect as well. Regardless, the key remains the same: keep cycles short and focused on learning.
 
 \newpage
 
@@ -288,7 +288,7 @@ End-to-end iterations work best when combined with other research management too
 - End-to-end iterations test whether that chain actually works on real data.
 - The target from drawing backwards acts as your north star throughout iterations.
 - Each iteration validates or refines the steps that drawing backwards identified.
-- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and lets you test it incrementally.
+- Use both: drawing backwards reveals what to build, while end-to-end iterations prove it works and let you test it incrementally.
 
 ### Summary: End-to-End Iterations
 
