@@ -14,7 +14,7 @@ Two weeks later, they're still on this path. When you ask about trying alternati
 
 Three weeks in, they admit this approach isn't viable. Meanwhile, a simpler approach sat unexplored on the Research Tree.
 
-Without a defined checkpoint, there's no natural moment to ask: "Given what I've learned, is this still the best path?" The sunk cost fallacy (continuing an approach because you've already invested time, rather than because it's still the best option) takes over. This is extremely common by Researchers, who tend to be dedicated, brilliant people who get fixated by problems they try to solve.
+Without a defined checkpoint, there's no natural moment to ask: "Given what I've learned, is this still the best path?" The sunk cost fallacy (continuing an approach because you've already invested time, rather than because it's still the best option) takes over. This is extremely common by Researchers, who tend to be dedicated, brilliant people who get fixated on problems they try to solve.
 
 ### Time-Boxing: Creating Decision Points
 
@@ -61,7 +61,7 @@ Look at your Research Tree. You have other branches. Given what you now know, is
 
 You have three options:
 
-**Continue with a new time box:** "I've solved the core challenge. One more day for edge cases." Define the new time box. The key: you consciously decided to continue based on what you learned, not enertia.
+**Continue with a new time box:** "I've solved the core challenge. One more day for edge cases." Define the new time box. The key: you consciously decided to continue based on what you learned, not inertia.
 
 **Pivot:** "This would take two more weeks, and I'm not confident it'll work. There's a simpler approach on my tree." Mark this branch Red. Move to a different branch.
 
