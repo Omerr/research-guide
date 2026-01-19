@@ -32,6 +32,8 @@ Let's build one together. Consider a common engineering challenge:
 
 **Goal: Reduce API response time from 800ms to under 100ms**
 
+(Note: despite not being a real Research task, I chose this example for its simplicity to illustrate the process of creating a Research Tree. It can also show you how Research Trees can be useful in a variety of scenarios.)
+
 You start with a fundamental question that needs answering. What's the first thing you need to know?
 
 Take a moment to think about this before reading on.
