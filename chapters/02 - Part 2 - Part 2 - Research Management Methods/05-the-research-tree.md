@@ -162,11 +162,11 @@ But be careful: Don't try to do everything at once. Start with your best option.
 
 ### How Answers Lead to New Questions
 
-Let's say you choose "Profile" and run it for a day. You discover: **70% of response time is database queries**.
+After marking "Profile" as red, you moved on to "Logging". You added a few indicative log messages and let the system run for a day. You discover: **70% of response time is database queries**.
 
 ![Database is the bottleneck](images/chapter04/research_tree_6.png)
 
-This answer eliminates the need for other approaches (you don't need logging now - you found the answer). But more importantly, it reveals new questions:
+This answer eliminates the need for other approaches (you don't need DB Analysis now - you found the answer). But more importantly, it reveals new questions:
 
 ![New questions emerge](images/chapter04/research_tree_7.png)
 
@@ -207,11 +207,13 @@ Let's see how the full tree looks after a few days of investigation:
 **Reading this tree:**
 
 1. We started with "Where is the bottleneck?" and chose profiling (fastest feedback).
-2. That answer led to two new questions about specific queries.
-3. For "Which queries are slowest?", we chose slow query log (fastest to enable).
-4. Answering it led to another question about fixing the N+1 problem.
-5. For "How can we fix N+1?", we evaluated the approaches and chose "Rewrite queries with JOINs" (team knows SQL, fastest to implement).
-6. Meanwhile, "Can we reduce query count?" is still open and has its own approaches to investigate.
+2. We found out the profiler can't attach to the production environment due to security restrictions, so we pivoted to logging.
+3. Logging revealed that 70% of response time is database queries.
+4. That answer led to two new questions about specific queries.
+5. For "Which queries are slowest?", we chose slow query log (fastest to enable).
+6. Answering it led to another question about fixing the N+1 problem.
+7. For "How can we fix N+1?", we evaluated the approaches and chose "Rewrite queries with JOINs" (team knows SQL, fastest to implement).
+8. Meanwhile, "Can we reduce query count?" is still open and has its own approaches to investigate.
 
 ### Color-Coding Status
 
