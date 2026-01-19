@@ -94,7 +94,7 @@ The rest of this book provides concrete tools, like using a Research Tree, drawi
 But first, let's make sure we're clear on when you actually need these tools. [The next chapter](#Research-and-development) dives deeper into distinguishing Research from Development work.
 
 ### Notes
-** Actually, Schoenfeld (1992) described five components (which he terms "categories"), but I focused on four of them.
+** Actually, Schoenfeld (1992) described five components (which he terms "categories"), but I focused on four of them. For the curious reader - the one I skipped is called "Practices" - the habits and cultural norms of the mathematical environment that shape how a student approaches a problem. I chose to skip it as applying it to Research felt artificial.
 
 ### References
 
