@@ -235,6 +235,13 @@ In our example above:
 - "Redesign API" is Red because it would take too long for this project.
 - Other approaches are Brown because we haven't investigated them yet.
 
+### Additional Tips
+
+Keeping the tree clean and simple is important, and obsessing over its looks and details really misses the point. That said, some readers will find benefits by adding a few more details to the tree, specifically:
+
+1. **Order** - add a number next to a specific branch when tackling it, so it is easy to track which direction you tried first, which one followed and so on.
+2. **Pivot Explanations** - if you chose to pivot from one branch to another, write why. This might help when you revise your decisions later, or when reviewing with your team (as described [later in this chapter](#using-the-tree-with-your-team)).
+
 ### The Research Tree Prevents Common Pitfalls
 
 The Research Tree with this decision-making framework addresses five critical failure modes:
@@ -280,7 +287,7 @@ Don't worry about me, I'm enjoying some really great coffee in the meanwhile.
 
 Done? Good. You now have your first Research Tree with a clear starting point.
 
-### Using the Tree with Your Team
+### Using the Tree with Your Team {#using-the-tree-with-your-team}
 
 Research Trees become even more powerful when shared with a team. It actually provides you, the Lead, with a way to see what directions the team is executing upon, and why. Your job here is to make sure the framework is used. Help your team stop and ask: are we asking the right questions? Are there approaches that we missed? Are we choosing the right approach?
 
@@ -296,6 +303,7 @@ Research Trees become even more powerful when shared with a team. It actually pr
 - Update the tree as you learn.
 - When stuck, revisit the tree to identify alternative approaches.
 - Make sure you consider whether you are asking all of the important questions, and whether you are considering all relevant approaches.
+- If you pivoted from a branch, explain your reason and ask if someone can challenge your logic.
 - Conduct regular tree reviews (weekly or bi-weekly).
 
 Note that the Research Tree is also useful for one on one sessions - you can review the tree with individual team members to understand their progress and help them choose next steps. It actually makes the Control component of Schoenfeld's framework much easier to manage - as you see the variolus questions and approaches laid out visually.
