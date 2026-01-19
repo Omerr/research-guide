@@ -121,6 +121,8 @@ Quincy Larson founded the amazing community at freeCodeCamp. I thank him for sta
 
 Estefania Cassingena Navone designed the cover of this book. I am grateful for her professional work and her patience with my perfectionism and requests.
 
+Beta readers who contributed their time and mind to read through an unfinished version of this book to improve it for all of you - have helped me get it to its current shape. Specifically, I would like to thank Jason S. Shapiro and Omer Gull for their insights.
+
 Dr. David Ginat introduced me first to Alan Schoenfeld's problem-solving research during my time at Tel Aviv University. His teaching inspired me to apply these ideas in practical contexts, including Research management.
 
 I was privileged to work with many brilliant researchers and engineering leaders over the years, too many to name here.
