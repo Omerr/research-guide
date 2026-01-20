@@ -9,22 +9,9 @@ Some claim every development task involves "research" - you have to test your co
 Let's be precise.
 
 ### Defining Research vs. Development
-As a reminder from [chapter 1](#what-is-research),
+We established in [chapter 1](#what-is-research) the core distinction: Research involves fundamental uncertainty about whether solutions exist and which approaches will work, while Development applies known techniques to build specific features.
 
-**Research** involves fundamental uncertainty:
-
-- You don't know if a solution is even possible.
-- Multiple approaches exist, but you don't know which will work for your specific problem.
-- You may need to invent entirely new techniques.
-- Success means establishing new capabilities, not implementing specific features.
-
-**Development** involves:
-
-- Applying established techniques to build products.
-- Following known approaches, even if complex to implement.
-- Success tied directly to working software with specific capabilities.
-
-![Research vs Development](images/chapter01/research_vs_development.png)
+With this foundation, let's explore how to identify Research in practice.
 
 ### A Quick Test
 
