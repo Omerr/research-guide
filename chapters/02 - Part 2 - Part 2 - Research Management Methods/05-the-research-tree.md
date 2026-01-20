@@ -252,7 +252,7 @@ The Research Tree with this decision-making framework addresses five critical fa
 Without a tree, people implement the first approach they think of. The tree forces you to identify alternatives and evaluate them systematically before starting.
 
 **2. Tunnel Vision**
-People lock onto one approach without considering alternatives. The tree makes alternatives visible and helps you not only choose the best starting point, but also reevaluate continuously.
+Even when considering alternatives in the beginning, people tend to lock onto one approach and not pivot from it even when it turns out to be the wrong choice. The tree makes alternatives visible and helps you not only choose the best starting point, but also reevaluate continuously.
 
 **3. Inefficient Learning**
 Teams might try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
