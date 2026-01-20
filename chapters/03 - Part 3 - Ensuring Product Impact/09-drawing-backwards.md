@@ -185,6 +185,8 @@ This approach prevented us from spending weeks on tasks (1) and (2), only to dis
 
 The logic is clear: While solving (3) ultimately requires solving (1) and (2), if we fail at (3) even with (1) and (2) accomplished, then pursuing (1) and (2) might not be worth the effort at all.
 
+**What does mocking a dependency look like in practice?** In our case, mocking steps (1) and (2) meant manually identifying a handful of business conditions from the COBOL code ourselves, rather than building automated systems to find them. We created a small, hand-crafted list of conditions that we *knew* were business-relevant and existed in our sample programs, and used that as input for testing our explanation approach in step (3).
+
 ### Why Drawing Backwards Is So Powerful
 
 The advantages of drawing backwards become clear from both the game examples and the COBOL case study:
