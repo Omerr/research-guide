@@ -1,6 +1,6 @@
 \newpage
 
-# Part 3 - Ensuring Product Impact {#part3-ensuring-product-impact}
+# Part 3: Ensuring Product Impact {#part3-ensuring-product-impact}
 
 In [chapter 2](#research-and-development), I argued that your role as a Research leader is to:
 
@@ -15,7 +15,7 @@ Part 2 addressed (2) above - ensuring Research is done effectively - with tools 
 
 ## Chapter 6 - How to Choose Research Initiatives {#how-to-choose-research-initiatives}
 
-The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important - avoiding Research that won't impact the product.
+The very first step in making sure your Research impacts the product is choosing the right thing to research. And, just as important, avoiding Research that won't impact the product.
 
 Research initiatives can start from two different places:
 
@@ -53,7 +53,7 @@ While many good ideas come from technological opportunities, it's important to r
 | **Examples** | Swimm's auto-updating docs; Reducing false positives in medical diagnosis | "How can we use LLMs in our product?"; "This new parsing technique could enable..." |
 | **Success Criteria** | Did we solve the problem? | Did we find a valuable use case AND solve the problem? |
 
-Problem-driven research starts with validated demand - you know that the goal is worth pursuing. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
+Problem-driven research starts with validated demand: you know that the goal is worth pursuing. Opportunity-driven research starts with a hammer looking for nails. Sometimes you find valuable nails, but it's riskier.
 
 ![Product-driven research starts with a validated goal; Opportunity-driven research starts with a hammer looking for nails](images/chapter06/goal_vs_hammer.png)
 

@@ -49,7 +49,7 @@ But if you **work backwards**, the solution becomes clear:
 
 **Continue working backwards from spot 8:**
 
-Notice, that you've just created a "new" game - you no longer need to land on spot 1 in order to win. It's enough that you land on spot 8 - as from there, you can win no matter what your opponent does.
+Notice that you've just created a "new" game: you no longer need to land on spot 1 in order to win. It's enough that you land on spot 8 - as from there, you can win no matter what your opponent does.
 
 So, how do you ensure you can land on spot 8?
 
@@ -59,7 +59,7 @@ So, how do you ensure you can land on spot 8?
 
 ![If you land on spot 15, you win](images/chapter07/spiral_game_4.png)
 
-Again, you've just created a "new" game - where your goal is to land on spot 15. From there, you already know how to win.
+Again, you've just created a "new" game: where your goal is to land on spot 15. From there, you already know how to win.
 
 You can keep going like this, drawing backwards - would you want to land on spot 16 or not? How about 17? Until, at some point...
 
@@ -79,7 +79,7 @@ You can keep going like this, drawing backwards - would you want to land on spot
 
 Notice what happened: By working backwards from the goal, you discovered the systematic solution. Working forward from the start position would have been much, much harder.
 
-You actually deployed a second, powerful heuristic here - considering specific cases (1, 8, 15, 22, 29, 36) - and generalizing (`1+7n`). This heuristic is also very common in research, though not specifically when aiming to ensure product impact.
+You actually deployed a second, powerful heuristic here: considering specific cases (1, 8, 15, 22, 29, 36) - and generalizing (`1+7n`). This heuristic is also very common in research, though not specifically when aiming to ensure product impact.
 
 ### How to Apply Drawing Backwards to Product-led Research
 
@@ -89,9 +89,9 @@ Let's connect this to Product-led Research. When you face a complex Research cha
 
 This forces you to:
 
-1. **Connect to product impact** - You must envision the end state that creates value.
-2. **Work systematically** - Like the spiral game, you identify the chain of dependencies backward.
-3. **Validate assumptions** - Before solving sub-problems, ensure they lead to your goal.
+1. **Connect to product impact**: You must envision the end state that creates value.
+2. **Work systematically**: Like the spiral game, you identify the chain of dependencies backward.
+3. **Validate assumptions**: Before solving sub-problems, ensure they lead to your goal.
 
 Let me show you how this worked in practice at Swimm.
 
@@ -140,7 +140,7 @@ When we first asked ourselves this question, we weren't sure. We knew from our c
 
 ![Start with the end result](images/chapter07/end_result.png)
 
-So we decided, **before tackling any technical challenges**, to manually create documents showing extracted business rules from sample programs. We did this completely manually - no parsing, no algorithms, just understanding COBOL code ourselves and writing documentation.
+So we decided, **before tackling any technical challenges**, to manually create documents showing extracted business rules from sample programs. We did this completely manually: no parsing, no algorithms, just understanding COBOL code ourselves and writing documentation.
 
 \newpage
 
@@ -230,7 +230,7 @@ Drawing backwards integrates naturally with the Research Tree from [chapter 4](#
 **Drawing backwards** is the heuristic of starting from your desired end state and working systematically toward your current position.
 
 **In Product-led Research**, drawing backwards means:
-s
+
 1. Start by defining what successful output looks like (often manually or semi-manually).
 2. Validate the output with stakeholders before technical work.
 3. Work backwards through dependencies, solving them in reverse order.
@@ -244,4 +244,4 @@ This heuristic ensures that Research connects to product impact, since you start
 - Apply time-boxing ([chapter 5](#time-boxing)) to limit exploration of each branch.
 - Combine with pre-Research checks ([chapter 6](#how-to-choose-research-initiatives)) to validate product impact.
 
-In the next chapter, you will learn about two limitations of drawing backwards and how to address them with continuous end-to-end iterations.
+In the next chapter, you'll learn about two limitations of drawing backwards and how to address them with continuous end-to-end iterations.

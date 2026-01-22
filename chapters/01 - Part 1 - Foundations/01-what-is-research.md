@@ -1,12 +1,12 @@
 \newpage
 
-# Part 1 - Foundations
+# Part 1: Foundations
 
 ## Chapter 1 - What is Research? {#what-is-research}
 
 To manage research effectively, you first need to understand what research is, and what it is not.
 
-From now on, I will use *Research* (capital R) when refering to our specific concept of research in this book, to distinguish it from general uses of the word.
+From now on, I will use *Research* (capital R) when referring to our specific concept of research in this book, to distinguish it from general uses of the word.
 
 Consider this scenario: Your team needs to optimize a critical API endpoint. It's slow, users complain, and you know exactly what to do: profile the code, identify bottlenecks, apply standard optimization techniques. This is challenging work, but it's not Research.
 
@@ -39,7 +39,7 @@ I've found Alan Schoenfeld's model of problem solving [1] to be a useful framewo
 
 ### Schoenfeld's Framework for Problem Solving
 
-**1. Knowledge Base** — What you know
+**1. Knowledge Base** - What you know
 
 Are you familiar with relevant tools, algorithms, and techniques?
 
@@ -47,9 +47,9 @@ For COBOL business rule extraction: Do you understand COBOL syntax? Static analy
 
 Without the right knowledge, you will have to spend time acquiring it before making progress, and might miss options that could be obvious to someone with more background.
 
-**2. Heuristics** — Strategies for approaching problems
+**2. Heuristics** - Strategies for approaching problems
 
-We will cover heuristics in much more detail later. For now, here are some examples of effective heuristics:
+We'll cover heuristics in much more detail later. For now, here are some examples of effective heuristics:
 
 - "Work backwards from the desired output".
 - "Break the problem into smaller pieces".
@@ -58,13 +58,13 @@ We will cover heuristics in much more detail later. For now, here are some examp
 
 For our COBOL business rule extraction case: "Start by manually extracting rules from one small program to understand what 'success' looks like".
 
-**3. Control** — Monitoring and adjusting your approach
+**3. Control** - Monitoring and adjusting your approach
 
 Recognizing when your current strategy isn't working. Deciding when to pivot to a different approach. Managing your time and resources effectively.
 
-This is what separates experienced researchers from novices - it's not just what you know, and the heuristics that you may deploy, but when and how you use them. If you choose one approach, reflect on its effectiveness, and decide to try something different when needed, that's an example of control.
+This is what separates experienced researchers from novices: It's not just what you know, and the heuristics that you may deploy, but when and how you use them. If you choose one approach, reflect on its effectiveness, and decide to try something different when needed, that's an example of control.
 
-**4. Beliefs and Attitudes** — Your mindset toward the problem
+**4. Beliefs and Attitudes** - Your mindset toward the problem
 
 Schoenfeld found that successful problem solvers held certain beliefs that helped them persist through challenges. Examples include:
 

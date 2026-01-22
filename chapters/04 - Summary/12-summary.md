@@ -6,7 +6,7 @@ You picked up this book because managing Research is different from managing Dev
 
 ## What You Learned About Research
 
-In [chapter 1](#what-is-research), you learned that Research isn't about difficulty or technical sophistication. It's about **uncertainty of approach** — that is, confronting problems where you don't know if a solution exists, where multiple approaches might work but you're not sure which, and where the path to success isn't immediately clear.
+In [chapter 1](#what-is-research), you learned that Research isn't about difficulty or technical sophistication. It's about **uncertainty of approach** - that is, confronting problems where you don't know if a solution exists, where multiple approaches might work but you're not sure which, and where the path to success isn't immediately clear.
 
 You saw how Alan Schoenfeld's problem-solving framework breaks down the Research process into four components:
 
@@ -40,7 +40,7 @@ In [chapter 3](#why-methodology-matters), I shared with you a personal reverse e
 - A decision framework for choosing which approach to try first: fastest feedback, lowest cost, best coverage.
 - How using the tree helps avoid common failure modes: jumping on the first idea, tunnel vision, inefficient learning, answering questions you don't need to, and lost context.
 
-The Research Tree helps you implement Schoenfeld's "control" component — helping you monitor and adjust your approach systematically rather than randomly trying things. It is helpful for a researcher, but as a Research leader, it allows you to guide your team effectively.
+The Research Tree helps you implement Schoenfeld's "control" component - helping you monitor and adjust your approach systematically rather than randomly trying things. It is helpful for a researcher, but as a Research leader, it allows you to guide your team effectively.
 
 In [chapter 5](#time-boxing), you learned how to manage exploration without killing creativity. Since Research estimation is inherently difficult, time-boxing provides structure by setting time limits for specific research directions. After the allocated time, you stop to reconsider: What did you learn? Is this still the most promising path? This tool acknowledges uncertainty while preventing endless exploration, or diving too deep into rabbit holes that don't necessarily help your Product goals.
 
@@ -48,7 +48,7 @@ In [chapter 5](#time-boxing), you learned how to manage exploration without kill
 
 **Part 3** focused on your most important responsibility: ensuring Research creates product value.
 
-[Chapter 6](#how-to-choose-research-initiatives) showed you how to choose what directions to research — and more importantly, what *not* to pursue. You learned the distinction between:
+[Chapter 6](#how-to-choose-research-initiatives) showed you how to choose what directions to research - and more importantly, what *not* to pursue. You learned the distinction between:
 
 - **Problem-driven research** - starting from customer pain points (strongly preferred, lower risk).
 - **Opportunity-driven research** - starting from new technologies (higher risk, needs validation).
@@ -121,13 +121,13 @@ Quincy Larson founded the amazing community at freeCodeCamp. I thank him for sta
 
 Estefania Cassingena Navone designed the cover of this book. I am grateful for her professional work and her patience with my perfectionism and requests.
 
-Beta readers who contributed their time and mind to read through an unfinished version of this book to improve it for all of you - have helped me get it to its current shape. Specifically, I would like to thank Jason S. Shapiro and Omer Gull for their insights.
+Beta readers who contributed their time and mind to read through an unfinished version of this book to improve it for all of you have helped me get it to its current shape. Specifically, I would like to thank Jason S. Shapiro and Omer Gull for their insights.
 
 Dr. David Ginat introduced me first to Alan Schoenfeld's problem-solving research during my time at Tel Aviv University. His teaching inspired me to apply these ideas in practical contexts, including Research management.
 
 I was privileged to work with many brilliant researchers and engineering leaders over the years, too many to name here.
 
-To readers of my previous book, Gitting Things Done, who were kind enough to provide feedback and support — you are awesome. Receiving your emails and comments made me feel like there is a real reason to keep writing.
+To readers of my previous book, Gitting Things Done, who were kind enough to provide feedback and support - you are awesome. Receiving your emails and comments made me feel like there is a real reason to keep writing.
 
 \newpage
 

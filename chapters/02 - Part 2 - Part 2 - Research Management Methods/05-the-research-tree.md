@@ -8,7 +8,7 @@ The issue isn't persistence. It's that they never mapped out the solution space.
 
 **The Research Tree solves this problem.**
 
-It is a way to visualize and manage the **Control** component of Schoenfeld's framework from [chapter 1](#what-is-research) - monitoring and adjusting your approach. This is where most Research efforts struggle.
+It's a way to visualize and manage the **Control** component of Schoenfeld's framework from [chapter 1](#what-is-research) - monitoring and adjusting your approach. This is where most Research efforts struggle.
 
 ![Reminder: Schoenfeld's Framework](images/chapter01/components_of_problem_solving.png)
 
@@ -68,9 +68,9 @@ Before we go further, notice what just happened. **You stopped.**
 
 Instead of immediately jumping into "Let's add more logging!" or "I bet it's the database, let's check queries," you identified multiple possible approaches. You're looking at three different ways to answer the same question.
 
-This is already valuable. Most engineers would have jumped straight into whichever approach came to mind first. Maybe you've done this yourself - spent two days adding detailed logging, only to discover later that a profiler would have given you the answer in 30 minutes.
+This is already valuable. Most engineers would have jumped straight into whichever approach came to mind first. Maybe you've done this yourself: spent two days adding detailed logging, only to discover later that a profiler would have given you the answer in 30 minutes.
 
-By creating this tree, you've avoided that trap. You can see all the approaches before committing to any of them. It doesn't guarantee you will choose the "right" path - you can't always do that in advance – but it will minimize the chances of you omitting it completely.
+By creating this tree, you've avoided that trap. You can see all the approaches before committing to any of them. It doesn't guarantee you will choose the "right" path - you can't always do that in advance - but it will minimize the chances of you omitting it completely.
 
 Remember the reverse engineering students from [chapter 3](#why-methodology-matters)? They never created this tree. They jumped straight to the first approach they knew: disassemblers and debuggers. They didn't stop to think: "What are all the ways we could understand this game's rules?" If they had, they would have listed approaches like: reverse engineer the binary, check the Help menu, just play the game, examine config files, watch network traffic. And if they'd evaluated those approaches using the framework you're about to learn, "check the Help menu" would have scored perfectly: fastest feedback (30 seconds), lowest cost (zero), best coverage (complete rules). Instead, they spent hours on complex reverse engineering when a simple menu click would have worked. Don't be those students.
 
@@ -150,9 +150,9 @@ When approaches seem equal, ask: "Which one am I more familiar with?" or "Which 
 
 The worst decision is no decision.
 
-In general, this approach might feel like over-kill. Should you really sketch out trees and compare branches before actually doing something?
+In general, this approach might feel like overkill. Should you really sketch out trees and compare branches before actually doing something?
 
-The surprising answer is that while almost always it feels like over-kill - almost every single time, it turns out to be worth it. Try it a few times and you will see for yourself.
+The surprising answer is that while almost always it feels like overkill, almost every single time, it turns out to be worth it. Try it a few times and you will see for yourself.
 
 ### Heuristics Can Be Combined
 
@@ -178,7 +178,7 @@ Let's expand "Which queries are slowest?":
 
 ![Research tree expanding](images/chapter04/research_tree_8.png)
 
-Again, you'd evaluate: Which approach gives fastest feedback? Enabling slow query log is probably fastest - you just flip a config flag and wait a few minutes.
+Again, you'd evaluate: Which approach gives fastest feedback? Enabling slow query log is probably fastest, as you'd just flip a config flag and wait a few minutes.
 
 You decide to enable the slow query log. After investigating, you discover: **User profile queries are slowest - they make 15 separate database calls (N+1 problem)**.
 
@@ -241,24 +241,20 @@ In our example above:
 
 Keeping the tree clean and simple is important, and obsessing over its looks and details really misses the point. That said, some readers will find benefits by adding a few more details to the tree, specifically:
 
-1. **Order** - add a number next to a specific branch when tackling it, so it is easy to track which direction you tried first, which one followed and so on.
-2. **Pivot Explanations** - if you chose to pivot from one branch to another, write why. This might help when you revise your decisions later, or when reviewing with your team (as described [later in this chapter](#using-the-tree-with-your-team)).
+1. **Order**: add a number next to a specific branch when tackling it, so it is easy to track which direction you tried first, which one followed and so on.
+2. **Pivot Explanations**: if you chose to pivot from one branch to another, write why. This might help when you revise your decisions later, or when reviewing with your team (as described [later in this chapter](#using-the-tree-with-your-team)).
 
 ### The Research Tree Prevents Common Pitfalls
 
 The Research Tree with this decision-making framework addresses five critical failure modes:
 
-**1. Jumping on First Idea**
-Without a tree, people implement the first approach they think of. The tree forces you to identify alternatives and evaluate them systematically before starting.
+**1. Jumping on First Idea**: Without a tree, people implement the first approach they think of. The tree forces you to identify alternatives and evaluate them systematically before starting.
 
-**2. Tunnel Vision**
-Even when considering alternatives in the beginning, people tend to lock onto one approach and not pivot from it even when it turns out to be the wrong choice. The tree makes alternatives visible and helps you not only choose the best starting point, but also reevaluate continuously.
+**2. Tunnel Vision**: Even when considering alternatives in the beginning, people tend to lock onto one approach and not pivot from it even when it turns out to be the wrong choice. The tree makes alternatives visible and helps you not only choose the best starting point, but also reevaluate continuously.
 
-**3. Inefficient Learning**
-Teams might try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
+**3. Inefficient Learning**: Teams might try expensive, slow approaches first when faster, cheaper ones exist. The decision framework helps you learn quickly.
 
-**4. Answering Questions You Don't Need To**
-Teams waste time investigating interesting but irrelevant questions. The tree shows how questions connect - you only need to answer questions that lead to your goal.
+**4. Answering Questions You Don't Need To**: Teams waste time investigating interesting but irrelevant questions. The tree shows how questions connect - you only need to answer questions that lead to your goal.
 
 ![The Research Tree prevents common pitfalls](images/chapter04/pitfalls_mitigations.png)
 
@@ -308,7 +304,7 @@ Research Trees become even more powerful when shared with a team. It actually pr
 - If you pivoted from a branch, explain your reason and ask if someone can challenge your logic.
 - Conduct regular tree reviews (weekly or bi-weekly).
 
-Note that the Research Tree is also useful for one on one sessions - you can review the tree with individual team members to understand their progress and help them choose next steps. It actually makes the Control component of Schoenfeld's framework much easier to manage - as you see the variolus questions and approaches laid out visually.
+Note that the Research Tree is also useful for one-on-one sessions: you can review the tree with individual team members to understand their progress and help them choose next steps. It actually makes the Control component of Schoenfeld's framework much easier to manage - as you see the variolus questions and approaches laid out visually.
 
 ### Tools
 

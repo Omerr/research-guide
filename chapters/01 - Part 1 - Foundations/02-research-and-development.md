@@ -15,7 +15,7 @@ With this foundation, let's explore how to identify Research in practice.
 
 ### A Quick Test
 
-You're asked to reverse-engineer a specific compiled function - disassemble it and provide the equivalent code in C language. You know assembly, you know C, you have a disassembler. Is this Research?
+You're asked to reverse-engineer a specific compiled function: disassemble it and provide the equivalent code in C language. You know assembly, you know C, you have a disassembler. Is this Research?
 
 **No.** You know how to proceed. It might take three days of careful work, especially if the function is complex, but it's not Research. You're applying known techniques, and know how to progress to a solution.
 
@@ -25,7 +25,7 @@ But if you need to understand how an entire program operates, and one *possible*
 
 **1. Fundamental Uncertainty About Solution Viability**
 
-You're asking "Can this even be done?" rather than "How should we do this?" This isn't about implementation details – rather, it's about whether the approach itself is viable.
+You're asking "Can this even be done?" rather than "How should we do this?" This isn't about implementation details - rather, it's about whether the approach itself is viable.
 
 **2. Multiple Competing Approaches Without Clear Superiority**
 

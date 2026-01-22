@@ -4,7 +4,7 @@
 
 In the previous chapter, you learned about the Research Tree, a powerful tool for visualizing and managing Research efforts. The tree helps you systematically explore different solution paths and keep track of open questions. It also helps you decide which path to try first.
 
-But once you've chosen a branch - how long should you pursue it before stepping back to reconsider?
+But once you've chosen a branch, how long should you pursue it before stepping back to reconsider?
 
 ### The Problem: Research Without Time Limits
 
@@ -18,7 +18,7 @@ Without a defined checkpoint, there's no natural moment to ask: "Given what I've
 
 ### Time-Boxing: Creating Decision Points
 
-Let's face it: it's hard, even impossible, to estimate how long a Research task will take. But you should still provide time limits - based on how long you're willing to invest before reconsidering.
+Let's face it: it's hard, even impossible, to estimate how long a Research task will take. But you should still provide time limits based on how long you're willing to invest before reconsidering.
 
 **Time-boxing provides mandatory decision points.**
 
@@ -28,11 +28,11 @@ As a rule, for every task longer than a day, define a time limit. For example: "
 
 Three things can happen:
 
-**Early success:** The researcher figures it out in a few hours. Done early, move to the next question.
+**1. Early success:** The researcher figures it out in a few hours. Done early, move to the next question.
 
-**Early blocker:** After one hour, they discover they don't have access to filenames. They can immediately reconsider: "Without filenames, is this viable?"
+**2. Early blocker:** After one hour, they discover they don't have access to filenames. They can immediately reconsider: "Without filenames, is this viable?"
 
-**Time box expires:** Three days pass with partial progress. Now comes the mandatory decision point.
+**3. Time box expires:** Three days pass with partial progress. Now comes the mandatory decision point.
 
 ![For every task that is longer than a day, define a time limit](images/chapter05/time_limit.png)
 
@@ -61,11 +61,11 @@ Look at your Research Tree. You have other branches. Given what you now know, is
 
 You have three options:
 
-**Continue with a new time box:** "I've solved the core challenge. One more day for edge cases." Define the new time box. The key: you consciously decided to continue based on what you learned, not inertia.
+You can **continue with a new time box**: "I've solved the core challenge. One more day for edge cases." Define the new time box. The key: you consciously decided to continue based on what you learned, not inertia.
 
-**Pivot:** "This would take two more weeks, and I'm not confident it'll work. There's a simpler approach on my tree." Mark this branch Red. Move to a different branch.
+You can **pivot**: "This would take two more weeks, and I'm not confident it'll work. There's a simpler approach on my tree." Mark this branch Red. Move to a different branch.
 
-**Reconsider the question:** "Files in this codebase don't have clear I/O patterns. Maybe I should try clustering by function dependencies instead." Go back to your tree and identify a different question.
+Or you can **reconsider the question**: "Files in this codebase don't have clear I/O patterns. Maybe I should try clustering by function dependencies instead." Go back to your tree and identify a different question.
 
 ### Example: Detecting God Objects
 

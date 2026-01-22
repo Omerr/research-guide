@@ -74,7 +74,7 @@ For the COBOL business rules example: We used drawing backwards to identify that
 5. For every business rule, create a document section explaining the condition.
 6. Sort document sections according to business rule dependencies.
 
-This is your first draft - the hypothesized process that drawing backwards revealed.
+This is your first draft: the hypothesized process that drawing backwards revealed.
 
 ![First end-to-end process draft](images/chapter08/cobol_steps.png)
 
@@ -210,7 +210,7 @@ Changes after first iteration:
 - Better document formatting [Client mentioned it, 1 week] → DEFER (validate content first)
 ```
 
-Iterate fast - change something, ship again, get feedback. Don't solve every issue you find, even issues clients mention. Ask: "What's the most important thing to change to learn something in the very next iteration?"
+Iterate fast: change something, ship again, get feedback. Don't solve every issue you find, even issues clients mention. Ask: "What's the most important thing to change to learn something in the very next iteration?"
 
 ### Principle 5: Get Frequent Feedback on Results
 
@@ -220,7 +220,7 @@ The trick is to be obsessed with getting as much feedback as you can, on each an
 
 1. **Get feedback on the end result**
    - Show the actual output to users.
-   - When applicable, don't just ask "does this work?" - watch them try to use it.
+   - When applicable, don't just ask "does this work?" - also watch them try to use it.
    - Identify what works, what doesn't, what's missing.
 
 2. **Understand the next questions to answer**
@@ -261,7 +261,9 @@ Iteration 3:
 
 Notice: Each cycle is fast, focused on one question, and based on real learning.
 
-In real life, you may want to tackle a few questions per iteration - if two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints. Also, when working with real clients, they might not be as receptive to trying things so many times - of course, you need to consider that aspect as well. Regardless, the key remains the same: keep cycles short and focused on learning.
+In real life, you may want to tackle a few questions per iteration. If two things are clear, fix them before shipping again so you can actually gain valuable feedback rather than hearing the same complaints.
+
+Also, when working with real clients, they might not be as receptive to trying things so many times - so you'll need to consider that aspect as well. Regardless, the key remains the same: keep cycles short and focused on learning.
 
 \newpage
 
@@ -296,11 +298,11 @@ End-to-end iterations work best when combined with other research management too
 
 **The five principles:**
 
-1. **Outline the process** - Draw backwards already gives you this: the chain from input to output.
-2. **Simplify to get end-to-end** - Use shortcuts and manual steps to make the whole chain work.
-3. **Ship fast** - Real data teaches what theory can't.
-4. **Prioritize carefully** - Use the three-criteria framework:
+1. **Outline the process**: Draw backwards already gives you this: the chain from input to output.
+2. **Simplify to get end-to-end**: Use shortcuts and manual steps to make the whole chain work.
+3. **Ship fast**: Real data teaches what theory can't.
+4. **Prioritize carefully**: Use the three-criteria framework:
    - Learned necessity (is it broken?)
    - Learning potential (what will you learn?)
    - Effort estimation (how long will it take?)
-5. **Get frequent feedback** - Fast cycles (days to weeks) focused on learning.
+5. **Get frequent feedback**: Fast cycles (days to weeks) focused on learning.

@@ -1,6 +1,6 @@
 \newpage
 
-# Part 2 - Research Management Methods {#part2-research-management-methods}
+# Part 2: Research Management Methods {#part2-research-management-methods}
 
 ## Chapter 3 - Why Methodology Matters: A True Story {#why-methodology-matters}
 
@@ -8,13 +8,13 @@ It was a late evening, and the classroom was filled with three dozen students. T
 
 This particular evening, the students were furiously working on reverse-engineering a game. The instruction was: "understand the game's rules, and document them thoroughly." The game had a user interface with two dimensions and could be played against the computer. Moving behind the students, I could see their screens with various reverse engineering tools open.
 
-At some point we asked them to stop, turn around and look at the instructor. The instructor then provided a guided solution - this was a technique we used quite frequently, showing the students the "right" way to approach a problem they had spent some time tackling. The instructor opened the game, looked at the screen, opened the "File" menu, clicked on "Help" — and there it was, the entire description of the game rules.
+At some point we asked them to stop, turn around and look at the instructor. The instructor then provided a guided solution - this was a technique we used quite frequently, showing the students the "right" way to approach a problem they had spent some time tackling. The instructor opened the game, looked at the screen, opened the "File" menu, clicked on "Help" - and there it was, the entire description of the game rules.
 
 ### The Lesson
 
 The room erupted in nervous laughter. Some students looked embarrassed. Others seemed frustrated. But everyone understood the point.
 
-These were capable people. They had the relevant knowledge base, in Schoenfeld's terms, as presented in [chapter 1](#what-is-research). That is, they had the relevant technical skills — they knew both assembly and C, they knew how to use disassemblers, debuggers, and all the sophisticated tools of reverse engineering. Yet they had missed something fundamental: **checking if there was a simpler solution first**.
+These were capable people. They had the relevant knowledge base, in Schoenfeld's terms, as presented in [chapter 1](#what-is-research). That is, they had the relevant technical skills - they knew both assembly and C, they knew how to use disassemblers, debuggers, and all the sophisticated tools of reverse engineering. Yet they had missed something fundamental: **checking if there was a simpler solution first**.
 
 This happens all the time in Research work.
 
@@ -28,7 +28,7 @@ As a reminder, in [chapter 2](#research-and-development), we discussed your role
 
 ![Your Role as Research Leader](images/chapter02/lead_goals.png)
 
-Focusing on responsibility (2) - the illustration here shows how the same peak can be reached via difficult climbing (reverse engineering) or by using a hot air balloon (reading the Help menu). Part of your job as a Research leader is to help your team find the easiest path to the goal.
+Focusing on responsibility (2), the illustration here shows how the same peak can be reached via difficult climbing (reverse engineering) or by using a hot air balloon (reading the Help menu). Part of your job as a Research leader is to help your team find the easiest path to the goal.
 
 ### What This Part Covers
 

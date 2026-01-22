@@ -19,9 +19,9 @@ Back in [chapter 2](#research-and-development), you learned that your role as a 
 
 Before starting any Research, answer three critical questions:
 
-1. **Product impact** - Will success create huge value?
-2. **Time to impact** - How long until we see product results?
-3. **Resources** - Do we have the knowledge, capacity, and dependencies?
+1. **Product impact**: Will success create huge value?
+2. **Time to impact**: How long until we see product results?
+3. **Resources**: Do we have the knowledge, capacity, and dependencies?
 
 ![Three questions to answer before pursuing Research](images/chapter06/research_initiative_questions.png)
 
@@ -33,10 +33,10 @@ Run focused pre-research checks to answer these questions. Only pursue Research 
 
 Once you've chosen what to research, the drawing backwards heuristic ensures that you start right. Instead of diving into technical challenges, start from the end:
 
-1. **Manually create the desired output** - What should successful Research produce? Create it by hand before solving any technical problems.
-2. **Validate with stakeholders or customers** - Show them the output and confirm it solves their problem.
-3. **Work backwards through dependencies** - From that validated output, identify what you need to produce it, then what you need for that, working your way back to your starting point.
-4. **Solve in reverse order** - Tackle the final step first (with earlier steps mocked), validating that each step contributes to the goal before investing heavily in earlier dependencies.
+1. **Manually create the desired output**: What should successful Research produce? Create it by hand before solving any technical problems.
+2. **Validate with stakeholders or customers**: Show them the output and confirm it solves their problem.
+3. **Work backwards through dependencies**: From that validated output, identify what you need to produce it, then what you need for that, working your way back to your starting point.
+4. **Solve in reverse order**: Tackle the final step first (with earlier steps mocked), validating that each step contributes to the goal before investing heavily in earlier dependencies.
 
 ![Hypothesize about your end result](images/chapter07/form_hypothesis.png)
 
@@ -73,11 +73,11 @@ Each stage prevents different undesired, but painfully common outcomes:
 
 You now have the complete answer to "How do I ensure Research impacts the product?":
 
-1. **Choose wisely** - Only pursue research with clear, huge product impact.
-2. **Start from product value** - Manually create and validate desired output before technical work.
-3. **Work backwards** - Identify dependencies from output back to starting point.
-4. **Build end-to-end fast** - Get entire chain working with shortcuts and manual steps.
-5. **Ship to real users** - Validate on actual data, not just examples.
-6. **Iterate based on learning** - Improve the chain incrementally, prioritizing what teaches you most.
+1. **Choose wisely**: Only pursue research with clear, huge product impact.
+2. **Start from product value**: Manually create and validate desired output before technical work.
+3. **Work backwards**: Identify dependencies from output back to starting point.
+4. **Build end-to-end fast**: Get entire chain working with shortcuts and manual steps.
+5. **Ship to real users**: Validate on actual data, not just examples.
+6. **Iterate based on learning**: Improve the chain incrementally, prioritizing what teaches you most.
 
 This methodology keeps product impact central at every stage: choosing, planning, and executing. It prevents the most expensive failure: "successful" Research that doesn't affect the product.

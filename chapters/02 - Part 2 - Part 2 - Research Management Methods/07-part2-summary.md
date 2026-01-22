@@ -15,7 +15,7 @@ In [chapter 2](#research-and-development), I argued that your role as a Research
 
 ![Your Role as Research Leader](images/chapter02/lead_goals.png)
 
-This part handled the latter part of your role - how to ensure Research is done effectively.
+This part handled the latter part of your role: how to ensure Research is done effectively.
 
 Within this part, your role is to:
 
